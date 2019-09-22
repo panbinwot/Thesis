@@ -6,7 +6,6 @@ Comment: this is the helper function for the thesis project. The module includes
 import numpy as np 
 import pandas as pd 
 from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import cross_val_predict
 from sklearn.cross_validation import train_test_split
 from sklearn import metrics
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
@@ -32,11 +31,11 @@ def mincer(X_train, y_train,  X_test, y_test):
 
 
 def trees(X_train, y_train, X_test, y_test , model = "rf"):
-    if  model = "gb"
+    if  model == "gb":
         regressor = GradientBoostingRegressor(max_depth=15)
     else:
         regressor = RandomForestRegressor(n_estimators=5, max_depth=1, random_state=1)
-    reg = regressor.fit(X_train, train_y)
+    reg = regressor.fit(X_train, y_train)
     # y_pred = reg.predict(X_test)
     r2 = reg.score(X_test, y_test)
     return  r2
@@ -62,13 +61,26 @@ def nn(X_train, y_train, X_test, y_test):
     mean = np.mean(absPercentDiff)
     std = np.std(absPercentDiff)
 
-    r2 = r_square(y_pred, y_test)
+    r2 = np.mean(np.square(diff))
     print("The r_squrare of this MLP is: {:.2f}%".format(r2))
     return r2
 
 
 def  r_square(y_pred, y_test):
-    assert (y_pred.shape == y_test.shape), "Inputs dimension errors."
+    # assert (y_pred.shape == y_test.shape), "Inputs dimension errors."
     y_pred, y_test = np.array(y_pred), np.array(y_test)
     res = ((y_pred - y_test)^2).sum() / len(y_test)
     return res
+
+
+data_path = './data/mincer.xlsx'
+#dat.describe(include="all")
+dat = pd.read_excel(data_path)
+dat = dat.fillna(0)
+train, test = train_test_split(dat, test_size=0.25, random_state=12)
+y_train, X_train, y_test, X_test = train['lnwage'], train.iloc[:,
+                                                               4:], test['lnwage'], test.iloc[:, 4:]
+
+res = nn(X_train, y_train, X_test, y_test)
+print("Testing............")
+print(res)
