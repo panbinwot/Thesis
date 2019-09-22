@@ -10,7 +10,3 @@ def  r_square(y_pred, y_test):
     res = ((y_pred - y_test)^2).sum() / len(y_test)
     print(res)
     return res
-
-a = [1,2,4,5]
-b = [2,3,4,5]
-r_square(a,b)
