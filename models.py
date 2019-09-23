@@ -26,11 +26,12 @@ from keras.optimizers import adam
 def mincer(X_train, y_train,  X_test, y_test):
     regressor = LinearRegression()
     reg = regressor.fit(X_train,y_train)
-    # y_pred = reg.predict(X_test)
-    return reg.score(X_test, y_test)
+    y_pred = reg.predict(X_test)
+    # return reg.score(X_test, y_test)
+    return np.mean(np.square(y_pred-y_test))
 
 
-def trees(X_train, y_train, X_test, y_test , model = "rf"):
+def trees(X_train, y_train, X_test, y_test, model="rf", n_estimators=5, max_depth=5):
     if  model == "gb":
         regressor = GradientBoostingRegressor(max_depth=15)
     else:
@@ -38,7 +39,8 @@ def trees(X_train, y_train, X_test, y_test , model = "rf"):
     reg = regressor.fit(X_train, y_train)
     # y_pred = reg.predict(X_test)
     r2 = reg.score(X_test, y_test)
-    return  r2
+    return np.mean(np.square(y_pred-y_test))
+
 
 def nn(X_train, y_train, X_test, y_test):
     dim =  X_train.shape[1]
@@ -73,14 +75,14 @@ def  r_square(y_pred, y_test):
     return res
 
 
-data_path = './data/mincer.xlsx'
-#dat.describe(include="all")
-dat = pd.read_excel(data_path)
-dat = dat.fillna(0)
-train, test = train_test_split(dat, test_size=0.25, random_state=12)
-y_train, X_train, y_test, X_test = train['lnwage'], train.iloc[:,
-                                                               4:], test['lnwage'], test.iloc[:, 4:]
+# data_path = './data/mincer.xlsx'
+# #dat.describe(include="all")
+# dat = pd.read_excel(data_path)
+# dat = dat.fillna(0)
+# train, test = train_test_split(dat, test_size=0.25, random_state=12)
+# y_train, X_train, y_test, X_test = train['lnwage'], train.iloc[:,
+#                                                                4:], test['lnwage'], test.iloc[:, 4:]
 
-res = nn(X_train, y_train, X_test, y_test)
-print("Testing............")
-print(res)
+# res = nn(X_train, y_train, X_test, y_test)
+# print("Testing............")
+# print(res)
