@@ -67,3 +67,22 @@ def nn(X_train, y_train, X_test, y_test):
     print("The r_squrare of this MLP is: {:.2f}%".format(r2))
     return r2
 
+
+def  r_square(y_pred, y_test):
+    # assert (y_pred.shape == y_test.shape), "Inputs dimension errors."
+    y_pred, y_test = np.array(y_pred), np.array(y_test)
+    res = ((y_pred - y_test)^2).sum() / len(y_test)
+    return res
+
+
+# data_path = './data/mincer.xlsx'
+# #dat.describe(include="all")
+# dat = pd.read_excel(data_path)
+# dat = dat.fillna(0)
+# train, test = train_test_split(dat, test_size=0.25, random_state=12)
+# y_train, X_train, y_test, X_test = train['lnwage'], train.iloc[:,
+#                                                                4:], test['lnwage'], test.iloc[:, 4:]
+
+# res = nn(X_train, y_train, X_test, y_test)
+# print("Testing............")
+# print(res)
