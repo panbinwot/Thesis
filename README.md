@@ -7,4 +7,5 @@ The data is collected from NLSY97 and cleaned in Stata. Models are defined in Py
 - Is neural net way too powerful for social science research? Can we achieve a similar performance by using other methods that has meanings beside prediction.   
 
 The current result shows that the  XGBoost Algorithm does the best job among other models. The classic panel data regression is the second best, which is surprising. The decisison trees and random forests suffers overfitting a lot, which means i need to pune the trees.
+
 To be continued...
