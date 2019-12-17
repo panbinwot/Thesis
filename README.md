@@ -1,5 +1,5 @@
-# Thesis
-This is thesis for QMSS. 
+# Predicting Salary with Machine Learning Models
+This is thesis for QMSS. A next level question, do we really need machine learning in social science studies.
 ## Topic
 My topic is predicting salaries with machine learning models. <br/>
 To be specific, I try to address the following three quesitons.
