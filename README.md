@@ -1,4 +1,4 @@
-# Predicting Salary with Machine Learning Models
+# Predict Wage with Machine Learning Models
 Thesis for QMSS. A next level question, do we really need machine learning in social science studies.
 ## Topic
 My topic is predicting salaries with machine learning models. <br/>
