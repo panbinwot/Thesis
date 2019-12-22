@@ -7,14 +7,22 @@ To be specific, I try to address the following three quesitons.
 - Is it getting hard to predict wages ?  
 - Is neural net way too powerful for social science research? Can we achieve a similar performance by using other methods that has meanings beside prediction.   
 
+## Background
+### Econ Background
+- Mincer Equation
+- Dual Labor Markets Theory (DLM)
+### ML Background
+- Cross validation
+- A data-driven way of thinking. 
+
 ## Data
 NLSY97(2005-2011&2013&2015)
 
 ## Environment/Usage
 Models are defined in Python (sklearn and keras)
 
-## Current Result
-The current result shows that the  Gradient Boost Algorithm does the best job among other models. The classic panel data regression is the second best, which is surprising. The decisison trees and random forests suffers overfitting a lot. Partial results are summerized below
+## Key Result
+The result shows that the  Gradient Boost Algorithm does the best job among other models. The classic panel data regression is the second best, which is surprising. The decisison trees and random forests suffers overfitting a lot. Partial results are summerized below
 
 | Models      | MSE(train)|MSE(test)| R<sup>2</sup>(train) |R<sup>2</sup>(test)|
 | ------------- | ---------- | ----------- | ----------- |----------- |
