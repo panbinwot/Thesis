@@ -34,7 +34,7 @@ The result shows that the  Gradient Boost Algorithm does the best job among othe
 
 
 ## Implications
-I explored the performance of several popular machine learning models on survey data (limited size and noisy). The results show that only model beating linear regression is Gradient Boost. Maybe we need a second before embracing all the fancy machine learning algorithms. 
+ This paper applies popular machine learning models to predict wages using data from the National Longitudinal Survey Youth 97 (NLSY 97). The paper firstly examines the classic Mincer equation in both the primary sector and the secondary sector defined by the dual labor market theory. Then, the paper explores the performance of random forests, gradient boosting machines, and neural networks in terms of mean squared error and R-squared. The result shows linear regression and gradient boosting machines are better than other models. The regression tree model suffers a lot from overfitting. The neural network tends to easily underfit the data. Furthermore, the paper tests the model over time and observe a consistent increase of mean squared error of all the models, indicating a decreasing of predictability of all models over time.
 
 ## References
 
