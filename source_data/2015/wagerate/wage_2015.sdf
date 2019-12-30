@@ -1,0 +1,71 @@
+
+
+Reference
+Number     Year  Variable Description                                      Question Name            
+------------------------------------------------------------------------------------------------------
+R00001.00  1997  PUBID, YOUTH CASE IDENTIFICATION CODE                     PUBID                    
+R05363.00  1997  KEY!SEX, RS GENDER (SYMBOL)                               KEY!SEX                  
+R05364.01  1997  KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)               KEY!BDATE_M              
+R05364.02  1997  KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)               KEY!BDATE_Y              
+R12358.00  1997  SAMPLE TYPE.  CROSS-SECTIONAL OR OVERSAMPLE               CV_SAMPLE_TYPE           
+R14826.00  1997  KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)  KEY!RACE_ETHNICITY       
+U00095.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 01                    CV_HRLY_COMPENSATION.01  
+U00096.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 02                    CV_HRLY_COMPENSATION.02  
+U00097.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 03                    CV_HRLY_COMPENSATION.03  
+U00098.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 04                    CV_HRLY_COMPENSATION.04  
+U00099.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 05                    CV_HRLY_COMPENSATION.05  
+U00100.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 06                    CV_HRLY_COMPENSATION.06  
+U00101.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 07                    CV_HRLY_COMPENSATION.07  
+U00102.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 08                    CV_HRLY_COMPENSATION.08  
+U00103.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 09                    CV_HRLY_COMPENSATION.09  
+U00104.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 10                    CV_HRLY_COMPENSATION.10  
+U00105.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 11                    CV_HRLY_COMPENSATION.11  
+U00106.00  2015  WAGES - HOURLY COMPENSATION FOR JOB 12                    CV_HRLY_COMPENSATION.12  
+U00107.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 01                     CV_HRLY_PAY.01           
+U00108.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 02                     CV_HRLY_PAY.02           
+U00109.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 03                     CV_HRLY_PAY.03           
+U00110.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 04                     CV_HRLY_PAY.04           
+U00111.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 05                     CV_HRLY_PAY.05           
+U00112.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 06                     CV_HRLY_PAY.06           
+U00113.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 07                     CV_HRLY_PAY.07           
+U00114.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 08                     CV_HRLY_PAY.08           
+U00115.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 09                     CV_HRLY_PAY.09           
+U00116.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 10                     CV_HRLY_PAY.10           
+U00117.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 11                     CV_HRLY_PAY.11           
+U00118.00  2015  WAGES - HOURLY RATE OF PAY FOR JOB 12                     CV_HRLY_PAY.12           
+U00119.00  2015  HOURS WORKED PER WEEK AT JOB 01                           CV_HRS_PER_WEEK.01       
+U00120.00  2015  HOURS WORKED PER WEEK AT JOB 02                           CV_HRS_PER_WEEK.02       
+U00121.00  2015  HOURS WORKED PER WEEK AT JOB 03                           CV_HRS_PER_WEEK.03       
+U00122.00  2015  HOURS WORKED PER WEEK AT JOB 04                           CV_HRS_PER_WEEK.04       
+U00123.00  2015  HOURS WORKED PER WEEK AT JOB 05                           CV_HRS_PER_WEEK.05       
+U00124.00  2015  HOURS WORKED PER WEEK AT JOB 06                           CV_HRS_PER_WEEK.06       
+U00125.00  2015  HOURS WORKED PER WEEK AT JOB 07                           CV_HRS_PER_WEEK.07       
+U00126.00  2015  HOURS WORKED PER WEEK AT JOB 08                           CV_HRS_PER_WEEK.08       
+U00127.00  2015  HOURS WORKED PER WEEK AT JOB 09                           CV_HRS_PER_WEEK.09       
+U00128.00  2015  HOURS WORKED PER WEEK AT JOB 10                           CV_HRS_PER_WEEK.10       
+U00129.00  2015  HOURS WORKED PER WEEK AT JOB 11                           CV_HRS_PER_WEEK.11       
+U00130.00  2015  HOURS WORKED PER WEEK AT JOB 12                           CV_HRS_PER_WEEK.12       
+U00154.00  2015  # WEEKS AT JOB 01                                         CV_WKSWK_JOB_DLI.01      
+U00155.00  2015  # WEEKS AT JOB 02                                         CV_WKSWK_JOB_DLI.02      
+U00156.00  2015  # WEEKS AT JOB 03                                         CV_WKSWK_JOB_DLI.03      
+U00157.00  2015  # WEEKS AT JOB 04                                         CV_WKSWK_JOB_DLI.04      
+U00158.00  2015  # WEEKS AT JOB 05                                         CV_WKSWK_JOB_DLI.05      
+U00159.00  2015  # WEEKS AT JOB 06                                         CV_WKSWK_JOB_DLI.06      
+U00160.00  2015  # WEEKS AT JOB 07                                         CV_WKSWK_JOB_DLI.07      
+U00161.00  2015  # WEEKS AT JOB 08                                         CV_WKSWK_JOB_DLI.08      
+U00162.00  2015  # WEEKS AT JOB 09                                         CV_WKSWK_JOB_DLI.09      
+U00163.00  2015  # WEEKS AT JOB 10                                         CV_WKSWK_JOB_DLI.10      
+U00164.00  2015  # WEEKS AT JOB 11                                         CV_WKSWK_JOB_DLI.11      
+U00165.00  2015  # WEEKS AT JOB 12                                         CV_WKSWK_JOB_DLI.12      
+U13447.00  2015  YEMP, EMPLOYER 01 UNIQUE ID (ROS ITEM)                    YEMP_UID.01              
+U13448.00  2015  YEMP, EMPLOYER 02 UNIQUE ID (ROS ITEM)                    YEMP_UID.02              
+U13449.00  2015  YEMP, EMPLOYER 03 UNIQUE ID (ROS ITEM)                    YEMP_UID.03              
+U13450.00  2015  YEMP, EMPLOYER 04 UNIQUE ID (ROS ITEM)                    YEMP_UID.04              
+U13451.00  2015  YEMP, EMPLOYER 05 UNIQUE ID (ROS ITEM)                    YEMP_UID.05              
+U13452.00  2015  YEMP, EMPLOYER 06 UNIQUE ID (ROS ITEM)                    YEMP_UID.06              
+U13453.00  2015  YEMP, EMPLOYER 07 UNIQUE ID (ROS ITEM)                    YEMP_UID.07              
+U13454.00  2015  YEMP, EMPLOYER 08 UNIQUE ID (ROS ITEM)                    YEMP_UID.08              
+U13455.00  2015  YEMP, EMPLOYER 09 UNIQUE ID (ROS ITEM)                    YEMP_UID.09              
+U13456.00  2015  YEMP, EMPLOYER 10 UNIQUE ID (ROS ITEM)                    YEMP_UID.10              
+U13457.00  2015  YEMP, EMPLOYER 11 UNIQUE ID (ROS ITEM)                    YEMP_UID.11              
+U13458.00  2015  YEMP, EMPLOYER 12 UNIQUE ID (ROS ITEM)                    YEMP_UID.12              

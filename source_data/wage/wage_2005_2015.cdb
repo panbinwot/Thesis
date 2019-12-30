@@ -1,0 +1,4104 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R12358.00    [CV_SAMPLE_TYPE]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             SAMPLE TYPE.  CROSS-SECTIONAL OR OVERSAMPLE
+ 
+Sample type: Is the respondent a member of the cross-sectional sample or the 
+oversample?
+ 
+    6748       1 Cross-sectional
+    2236       0 Oversample
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R12357.00[Default]
+Default Next Question: R12359.00
+--------------------------------------------------------------------------------
+S54210.00    [CV_HRLY_PAY.01]                               Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 01
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      44           0
+      27           1 TO 99: .01-.99
+      27         100 TO 199: 1.00-1.99
+     131         200 TO 299: 2.00-2.99
+      67         300 TO 399: 3.00-3.99
+      46         400 TO 499: 4.00-4.99
+     226         500 TO 599: 5.00-5.99
+     505         600 TO 699: 6.00-6.99
+     702         700 TO 799: 7.00-7.99
+     736         800 TO 899: 8.00-8.99
+     625         900 TO 999: 9.00-9.99
+     673        1000 TO 1099: 10.00-10.99
+     386        1100 TO 1199: 11.00-11.99
+     425        1200 TO 1299: 12.00-12.99
+     281        1300 TO 1399: 13.00-13.99
+     198        1400 TO 1499: 14.00-14.99
+    1105        1500 TO 999999: 15.00+
+  -------
+    6204
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     209
+TOTAL =========>    6413   VALID SKIP(-4)     925     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:         300000        Mean:             1455.49
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S54209.00[Default]
+Default Next Question: S54211.00
+--------------------------------------------------------------------------------
+S54211.00    [CV_HRLY_PAY.02]                               Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 02
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      27           0
+      16           1 TO 99: .01-.99
+      17         100 TO 199: 1.00-1.99
+      92         200 TO 299: 2.00-2.99
+      42         300 TO 399: 3.00-3.99
+      20         400 TO 499: 4.00-4.99
+     159         500 TO 599: 5.00-5.99
+     353         600 TO 699: 6.00-6.99
+     434         700 TO 799: 7.00-7.99
+     445         800 TO 899: 8.00-8.99
+     291         900 TO 999: 9.00-9.99
+     339        1000 TO 1099: 10.00-10.99
+     150        1100 TO 1199: 11.00-11.99
+     162        1200 TO 1299: 12.00-12.99
+      82        1300 TO 1399: 13.00-13.99
+      68        1400 TO 1499: 14.00-14.99
+     336        1500 TO 999999: 15.00+
+  -------
+    3033
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     102
+TOTAL =========>    3135   VALID SKIP(-4)    4203     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:          96000        Mean:             1192.14
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S54210.00[Default]
+Default Next Question: S54212.00
+--------------------------------------------------------------------------------
+S54212.00    [CV_HRLY_PAY.03]                               Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 03
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       5           0
+       2           1 TO 99: .01-.99
+       7         100 TO 199: 1.00-1.99
+      25         200 TO 299: 2.00-2.99
+       8         300 TO 399: 3.00-3.99
+      12         400 TO 499: 4.00-4.99
+      65         500 TO 599: 5.00-5.99
+     119         600 TO 699: 6.00-6.99
+     160         700 TO 799: 7.00-7.99
+     138         800 TO 899: 8.00-8.99
+      86         900 TO 999: 9.00-9.99
+     118        1000 TO 1099: 10.00-10.99
+      42        1100 TO 1199: 11.00-11.99
+      44        1200 TO 1299: 12.00-12.99
+      26        1300 TO 1399: 13.00-13.99
+      11        1400 TO 1499: 14.00-14.99
+     106        1500 TO 999999: 15.00+
+  -------
+     974
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      34
+TOTAL =========>    1008   VALID SKIP(-4)    6330     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:          18000        Mean:             1023.95
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S54211.00[Default]
+Default Next Question: S54213.00
+--------------------------------------------------------------------------------
+S54213.00    [CV_HRLY_PAY.04]                               Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 04
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       2           0
+       0           1 TO 99: .01-.99
+       2         100 TO 199: 1.00-1.99
+       8         200 TO 299: 2.00-2.99
+       2         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+      14         500 TO 599: 5.00-5.99
+      39         600 TO 699: 6.00-6.99
+      55         700 TO 799: 7.00-7.99
+      42         800 TO 899: 8.00-8.99
+      26         900 TO 999: 9.00-9.99
+      27        1000 TO 1099: 10.00-10.99
+      10        1100 TO 1199: 11.00-11.99
+      10        1200 TO 1299: 12.00-12.99
+       8        1300 TO 1399: 13.00-13.99
+       6        1400 TO 1499: 14.00-14.99
+      27        1500 TO 999999: 15.00+
+  -------
+     279
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      12
+TOTAL =========>     291   VALID SKIP(-4)    7047     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:          25000        Mean:             1172.46
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S54212.00[Default]
+Default Next Question: S54214.00
+--------------------------------------------------------------------------------
+S54214.00    [CV_HRLY_PAY.05]                               Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 05
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       2         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       5         500 TO 599: 5.00-5.99
+      19         600 TO 699: 6.00-6.99
+      12         700 TO 799: 7.00-7.99
+       8         800 TO 899: 8.00-8.99
+       5         900 TO 999: 9.00-9.99
+      10        1000 TO 1099: 10.00-10.99
+       5        1100 TO 1199: 11.00-11.99
+       2        1200 TO 1299: 12.00-12.99
+       1        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       8        1500 TO 999999: 15.00+
+  -------
+      78
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>      80   VALID SKIP(-4)    7258     NON-INTERVIEW(-5)    1646
+ 
+Min:            213        Max:          12500        Mean:             1049.68
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S54213.00[Default]
+Default Next Question: S54215.00
+--------------------------------------------------------------------------------
+S54215.00    [CV_HRLY_PAY.06]                               Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 06
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       4         500 TO 599: 5.00-5.99
+       4         600 TO 699: 6.00-6.99
+       3         700 TO 799: 7.00-7.99
+       4         800 TO 899: 8.00-8.99
+       2         900 TO 999: 9.00-9.99
+       4        1000 TO 1099: 10.00-10.99
+       1        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       5        1500 TO 999999: 15.00+
+  -------
+      27
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      27   VALID SKIP(-4)    7311     NON-INTERVIEW(-5)    1646
+ 
+Min:            515        Max:           2600        Mean:             1015.85
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S54214.00[Default]
+Default Next Question: S54216.00
+--------------------------------------------------------------------------------
+S54216.00    [CV_HRLY_PAY.07]                               Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 07
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       1           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       2         700 TO 799: 7.00-7.99
+       2         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       2        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       1        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 999999: 15.00+
+  -------
+       8
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       9   VALID SKIP(-4)    7329     NON-INTERVIEW(-5)    1646
+ 
+Min:             93        Max:           1200        Mean:                 791
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S54215.00[Default]
+Default Next Question: S54217.00
+--------------------------------------------------------------------------------
+S54217.00    [CV_HRLY_PAY.08]                               Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 08
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 999999: 15.00+
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       4   VALID SKIP(-4)    7334     NON-INTERVIEW(-5)    1646
+ 
+Min:            315        Max:            900        Mean:                 680
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S54216.00[Default]
+Default Next Question: S54218.00
+--------------------------------------------------------------------------------
+S54218.00    [CV_HRLY_PAY.09]                               Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 09
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       1        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7336     NON-INTERVIEW(-5)    1646
+ 
+Min:            515        Max:           1000        Mean:               757.5
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S54217.00[Default]
+Default Next Question: S54218.01
+--------------------------------------------------------------------------------
+S75222.00    [CV_HRLY_PAY.01]                               Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 01
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      62           0
+      25           1 TO 99: .01-.99
+      25         100 TO 199: 1.00-1.99
+     120         200 TO 299: 2.00-2.99
+      56         300 TO 399: 3.00-3.99
+      53         400 TO 499: 4.00-4.99
+     164         500 TO 599: 5.00-5.99
+     374         600 TO 699: 6.00-6.99
+     612         700 TO 799: 7.00-7.99
+     659         800 TO 899: 8.00-8.99
+     607         900 TO 999: 9.00-9.99
+     768        1000 TO 1099: 10.00-10.99
+     435        1100 TO 1199: 11.00-11.99
+     465        1200 TO 1299: 12.00-12.99
+     328        1300 TO 1399: 13.00-13.99
+     262        1400 TO 1499: 14.00-14.99
+    1529        1500 TO 9999999: 15.00+
+  -------
+    6544
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     156
+TOTAL =========>    6700   VALID SKIP(-4)     859     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:        3000000        Mean:             2072.12
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S75221.00[Default]
+Default Next Question: S75223.00
+--------------------------------------------------------------------------------
+S75223.00    [CV_HRLY_PAY.02]                               Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 02
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      31           0
+      26           1 TO 99: .01-.99
+      12         100 TO 199: 1.00-1.99
+      82         200 TO 299: 2.00-2.99
+      29         300 TO 399: 3.00-3.99
+      21         400 TO 499: 4.00-4.99
+     120         500 TO 599: 5.00-5.99
+     266         600 TO 699: 6.00-6.99
+     367         700 TO 799: 7.00-7.99
+     435         800 TO 899: 8.00-8.99
+     285         900 TO 999: 9.00-9.99
+     375        1000 TO 1099: 10.00-10.99
+     160        1100 TO 1199: 11.00-11.99
+     182        1200 TO 1299: 12.00-12.99
+     134        1300 TO 1399: 13.00-13.99
+      77        1400 TO 1499: 14.00-14.99
+     565        1500 TO 9999999: 15.00+
+  -------
+    3167
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      89
+TOTAL =========>    3256   VALID SKIP(-4)    4303     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:        3000000        Mean:             2916.26
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S75222.00[Default]
+Default Next Question: S75224.00
+--------------------------------------------------------------------------------
+S75224.00    [CV_HRLY_PAY.03]                               Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 03
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      14           0
+       5           1 TO 99: .01-.99
+       7         100 TO 199: 1.00-1.99
+      33         200 TO 299: 2.00-2.99
+      13         300 TO 399: 3.00-3.99
+       6         400 TO 499: 4.00-4.99
+      55         500 TO 599: 5.00-5.99
+     102         600 TO 699: 6.00-6.99
+     159         700 TO 799: 7.00-7.99
+     124         800 TO 899: 8.00-8.99
+      98         900 TO 999: 9.00-9.99
+     117        1000 TO 1099: 10.00-10.99
+      50        1100 TO 1199: 11.00-11.99
+      43        1200 TO 1299: 12.00-12.99
+      35        1300 TO 1399: 13.00-13.99
+      25        1400 TO 1499: 14.00-14.99
+     162        1500 TO 9999999: 15.00+
+  -------
+    1048
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      24
+TOTAL =========>    1072   VALID SKIP(-4)    6487     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:        1080000        Mean:             2192.09
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S75223.00[Default]
+Default Next Question: S75225.00
+--------------------------------------------------------------------------------
+S75225.00    [CV_HRLY_PAY.04]                               Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 04
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       4           0
+       1           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+      12         200 TO 299: 2.00-2.99
+       6         300 TO 399: 3.00-3.99
+       3         400 TO 499: 4.00-4.99
+      16         500 TO 599: 5.00-5.99
+      45         600 TO 699: 6.00-6.99
+      38         700 TO 799: 7.00-7.99
+      33         800 TO 899: 8.00-8.99
+      35         900 TO 999: 9.00-9.99
+      26        1000 TO 1099: 10.00-10.99
+      13        1100 TO 1199: 11.00-11.99
+      15        1200 TO 1299: 12.00-12.99
+       6        1300 TO 1399: 13.00-13.99
+       2        1400 TO 1499: 14.00-14.99
+      35        1500 TO 9999999: 15.00+
+  -------
+     290
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       7
+TOTAL =========>     297   VALID SKIP(-4)    7262     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:          15000        Mean:             1021.33
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S75224.00[Default]
+Default Next Question: S75226.00
+--------------------------------------------------------------------------------
+S75226.00    [CV_HRLY_PAY.05]                               Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 05
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       2           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       3         200 TO 299: 2.00-2.99
+       2         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       4         500 TO 599: 5.00-5.99
+       9         600 TO 699: 6.00-6.99
+      13         700 TO 799: 7.00-7.99
+      12         800 TO 899: 8.00-8.99
+       9         900 TO 999: 9.00-9.99
+       7        1000 TO 1099: 10.00-10.99
+       1        1100 TO 1199: 11.00-11.99
+       3        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+       3        1500 TO 9999999: 15.00+
+  -------
+      70
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>      72   VALID SKIP(-4)    7487     NON-INTERVIEW(-5)    1425
+ 
+Min:              2        Max:           5000        Mean:              884.84
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S75225.00[Default]
+Default Next Question: S75227.00
+--------------------------------------------------------------------------------
+S75227.00    [CV_HRLY_PAY.06]                               Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 06
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       1         600 TO 699: 6.00-6.99
+       4         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       2         900 TO 999: 9.00-9.99
+       4        1000 TO 1099: 10.00-10.99
+       1        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       2        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       2        1500 TO 9999999: 15.00+
+  -------
+      19
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      19   VALID SKIP(-4)    7540     NON-INTERVIEW(-5)    1425
+ 
+Min:            350        Max:           4000        Mean:             1069.79
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S75226.00[Default]
+Default Next Question: S75228.00
+--------------------------------------------------------------------------------
+S75228.00    [CV_HRLY_PAY.07]                               Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 07
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       2         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       4   VALID SKIP(-4)    7555     NON-INTERVIEW(-5)    1425
+ 
+Min:            800        Max:           1400        Mean:             1012.25
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S75227.00[Default]
+Default Next Question: S75229.00
+--------------------------------------------------------------------------------
+S75229.00    [CV_HRLY_PAY.08]                               Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 08
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       2   VALID SKIP(-4)    7557     NON-INTERVIEW(-5)    1425
+ 
+Min:           2500        Max:           2500        Mean:                2500
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S75228.00[Default]
+Default Next Question: S75230.00
+--------------------------------------------------------------------------------
+S75230.00    [CV_HRLY_PAY.09]                               Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 09
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7558     NON-INTERVIEW(-5)    1425
+ 
+Min:            800        Max:            800        Mean:                 800
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: S75229.00[Default]
+Default Next Question: S75231.00
+--------------------------------------------------------------------------------
+T00228.00    [CV_HRLY_PAY.01]                               Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 01
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      56           0
+      31           1 TO 99: .01-.99
+      22         100 TO 199: 1.00-1.99
+      97         200 TO 299: 2.00-2.99
+      54         300 TO 399: 3.00-3.99
+      39         400 TO 499: 4.00-4.99
+     109         500 TO 599: 5.00-5.99
+     261         600 TO 699: 6.00-6.99
+     471         700 TO 799: 7.00-7.99
+     561         800 TO 899: 8.00-8.99
+     545         900 TO 999: 9.00-9.99
+     632        1000 TO 1099: 10.00-10.99
+     398        1100 TO 1199: 11.00-11.99
+     476        1200 TO 1299: 12.00-12.99
+     353        1300 TO 1399: 13.00-13.99
+     306        1400 TO 1499: 14.00-14.99
+    2008        1500 TO 9999999: 15.00+
+  -------
+    6419
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     163
+TOTAL =========>    6582   VALID SKIP(-4)     836     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:        3000000        Mean:             2041.64
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T00227.00[Default]
+Default Next Question: T00229.00
+--------------------------------------------------------------------------------
+T00229.00    [CV_HRLY_PAY.02]                               Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 02
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      39           0
+      11           1 TO 99: .01-.99
+      18         100 TO 199: 1.00-1.99
+      64         200 TO 299: 2.00-2.99
+      43         300 TO 399: 3.00-3.99
+      20         400 TO 499: 4.00-4.99
+      69         500 TO 599: 5.00-5.99
+     177         600 TO 699: 6.00-6.99
+     316         700 TO 799: 7.00-7.99
+     389         800 TO 899: 8.00-8.99
+     272         900 TO 999: 9.00-9.99
+     334        1000 TO 1099: 10.00-10.99
+     150        1100 TO 1199: 11.00-11.99
+     236        1200 TO 1299: 12.00-12.99
+     121        1300 TO 1399: 13.00-13.99
+      90        1400 TO 1499: 14.00-14.99
+     600        1500 TO 9999999: 15.00+
+  -------
+    2949
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     105
+TOTAL =========>    3054   VALID SKIP(-4)    4364     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:         240000        Mean:             1590.29
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T00228.00[Default]
+Default Next Question: T00230.00
+--------------------------------------------------------------------------------
+T00230.00    [CV_HRLY_PAY.03]                               Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 03
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      18           0
+       5           1 TO 99: .01-.99
+       7         100 TO 199: 1.00-1.99
+      30         200 TO 299: 2.00-2.99
+      14         300 TO 399: 3.00-3.99
+      19         400 TO 499: 4.00-4.99
+      33         500 TO 599: 5.00-5.99
+      57         600 TO 699: 6.00-6.99
+     114         700 TO 799: 7.00-7.99
+     116         800 TO 899: 8.00-8.99
+      99         900 TO 999: 9.00-9.99
+     106        1000 TO 1099: 10.00-10.99
+      60        1100 TO 1199: 11.00-11.99
+      55        1200 TO 1299: 12.00-12.99
+      30        1300 TO 1399: 13.00-13.99
+      20        1400 TO 1499: 14.00-14.99
+     143        1500 TO 9999999: 15.00+
+  -------
+     926
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      31
+TOTAL =========>     957   VALID SKIP(-4)    6461     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:         225000        Mean:             1561.12
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T00229.00[Default]
+Default Next Question: T00231.00
+--------------------------------------------------------------------------------
+T00231.00    [CV_HRLY_PAY.04]                               Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 04
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       2           0
+       2           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       6         200 TO 299: 2.00-2.99
+       3         300 TO 399: 3.00-3.99
+       2         400 TO 499: 4.00-4.99
+       7         500 TO 599: 5.00-5.99
+      24         600 TO 699: 6.00-6.99
+      19         700 TO 799: 7.00-7.99
+      30         800 TO 899: 8.00-8.99
+      21         900 TO 999: 9.00-9.99
+      27        1000 TO 1099: 10.00-10.99
+      14        1100 TO 1199: 11.00-11.99
+      25        1200 TO 1299: 12.00-12.99
+       8        1300 TO 1399: 13.00-13.99
+       5        1400 TO 1499: 14.00-14.99
+      39        1500 TO 9999999: 15.00+
+  -------
+     234
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       9
+TOTAL =========>     243   VALID SKIP(-4)    7175     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:           5000        Mean:             1112.58
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T00230.00[Default]
+Default Next Question: T00232.00
+--------------------------------------------------------------------------------
+T00232.00    [CV_HRLY_PAY.05]                               Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 05
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       2           0
+       0           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       4         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       5         600 TO 699: 6.00-6.99
+      10         700 TO 799: 7.00-7.99
+      11         800 TO 899: 8.00-8.99
+       3         900 TO 999: 9.00-9.99
+       6        1000 TO 1099: 10.00-10.99
+       2        1100 TO 1199: 11.00-11.99
+       1        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       4        1400 TO 1499: 14.00-14.99
+       9        1500 TO 9999999: 15.00+
+  -------
+      60
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      60   VALID SKIP(-4)    7358     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:          10000        Mean:             1198.83
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T00231.00[Default]
+Default Next Question: T00233.00
+--------------------------------------------------------------------------------
+T00233.00    [CV_HRLY_PAY.06]                               Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 06
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       1           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       1         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       3         500 TO 599: 5.00-5.99
+       1         600 TO 699: 6.00-6.99
+       2         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       2         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       1        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       5        1500 TO 9999999: 15.00+
+  -------
+      17
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      17   VALID SKIP(-4)    7401     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:           2620        Mean:                1008
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T00232.00[Default]
+Default Next Question: T00234.00
+--------------------------------------------------------------------------------
+T00234.00    [CV_HRLY_PAY.07]                               Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 07
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       1           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       1         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       1        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       3        1500 TO 9999999: 15.00+
+  -------
+       6
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       7   VALID SKIP(-4)    7411     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:           2620        Mean:             1260.67
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T00233.00[Default]
+Default Next Question: T00235.00
+--------------------------------------------------------------------------------
+T00235.00    [CV_HRLY_PAY.08]                               Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 08
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       1           0
+       0           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       3   VALID SKIP(-4)    7415     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:           2620        Mean:              908.67
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T00234.00[Default]
+Default Next Question: T00236.00
+--------------------------------------------------------------------------------
+T20177.00    [CV_HRLY_PAY.01]                               Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 01
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      67           0
+      28           1 TO 99: .01-.99
+      22         100 TO 199: 1.00-1.99
+      91         200 TO 299: 2.00-2.99
+      55         300 TO 399: 3.00-3.99
+      46         400 TO 499: 4.00-4.99
+      76         500 TO 599: 5.00-5.99
+     197         600 TO 699: 6.00-6.99
+     370         700 TO 799: 7.00-7.99
+     552         800 TO 899: 8.00-8.99
+     439         900 TO 999: 9.00-9.99
+     598        1000 TO 1099: 10.00-10.99
+     429        1100 TO 1199: 11.00-11.99
+     447        1200 TO 1299: 12.00-12.99
+     355        1300 TO 1399: 13.00-13.99
+     304        1400 TO 1499: 14.00-14.99
+    2382        1500 TO 9999999: 15.00+
+  -------
+    6458
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     191
+TOTAL =========>    6649   VALID SKIP(-4)     841     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:        3000000        Mean:             2156.54
+ 
+Lead In: T20176.00[Default]
+Default Next Question: T20178.00
+--------------------------------------------------------------------------------
+T20178.00    [CV_HRLY_PAY.02]                               Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 02
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      54           0
+      10           1 TO 99: .01-.99
+      15         100 TO 199: 1.00-1.99
+      55         200 TO 299: 2.00-2.99
+      28         300 TO 399: 3.00-3.99
+      25         400 TO 499: 4.00-4.99
+      48         500 TO 599: 5.00-5.99
+     106         600 TO 699: 6.00-6.99
+     261         700 TO 799: 7.00-7.99
+     307         800 TO 899: 8.00-8.99
+     255         900 TO 999: 9.00-9.99
+     309        1000 TO 1099: 10.00-10.99
+     149        1100 TO 1199: 11.00-11.99
+     199        1200 TO 1299: 12.00-12.99
+     127        1300 TO 1399: 13.00-13.99
+      94        1400 TO 1499: 14.00-14.99
+     703        1500 TO 9999999: 15.00+
+  -------
+    2745
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     103
+TOTAL =========>    2848   VALID SKIP(-4)    4642     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:         500000        Mean:             1815.94
+ 
+Lead In: T20177.00[Default]
+Default Next Question: T20179.00
+--------------------------------------------------------------------------------
+T20179.00    [CV_HRLY_PAY.03]                               Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 03
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      18           0
+       1           1 TO 99: .01-.99
+       2         100 TO 199: 1.00-1.99
+      18         200 TO 299: 2.00-2.99
+      11         300 TO 399: 3.00-3.99
+      10         400 TO 499: 4.00-4.99
+      17         500 TO 599: 5.00-5.99
+      38         600 TO 699: 6.00-6.99
+      81         700 TO 799: 7.00-7.99
+      85         800 TO 899: 8.00-8.99
+      72         900 TO 999: 9.00-9.99
+      85        1000 TO 1099: 10.00-10.99
+      39        1100 TO 1199: 11.00-11.99
+      60        1200 TO 1299: 12.00-12.99
+      33        1300 TO 1399: 13.00-13.99
+      21        1400 TO 1499: 14.00-14.99
+     175        1500 TO 9999999: 15.00+
+  -------
+     766
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      34
+TOTAL =========>     800   VALID SKIP(-4)    6690     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:          85000        Mean:              1633.7
+ 
+Lead In: T20178.00[Default]
+Default Next Question: T20180.00
+--------------------------------------------------------------------------------
+T20180.00    [CV_HRLY_PAY.04]                               Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 04
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       3           0
+       1           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       6         200 TO 299: 2.00-2.99
+       6         300 TO 399: 3.00-3.99
+       4         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       9         600 TO 699: 6.00-6.99
+      19         700 TO 799: 7.00-7.99
+      26         800 TO 899: 8.00-8.99
+      17         900 TO 999: 9.00-9.99
+      20        1000 TO 1099: 10.00-10.99
+       6        1100 TO 1199: 11.00-11.99
+       9        1200 TO 1299: 12.00-12.99
+      10        1300 TO 1399: 13.00-13.99
+       6        1400 TO 1499: 14.00-14.99
+      53        1500 TO 9999999: 15.00+
+  -------
+     196
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      11
+TOTAL =========>     207   VALID SKIP(-4)    7283     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:          12500        Mean:             1403.55
+ 
+Lead In: T20179.00[Default]
+Default Next Question: T20181.00
+--------------------------------------------------------------------------------
+T20181.00    [CV_HRLY_PAY.05]                               Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 05
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       1           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       2         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       4         600 TO 699: 6.00-6.99
+       9         700 TO 799: 7.00-7.99
+      10         800 TO 899: 8.00-8.99
+       4         900 TO 999: 9.00-9.99
+      10        1000 TO 1099: 10.00-10.99
+       4        1100 TO 1199: 11.00-11.99
+       1        1200 TO 1299: 12.00-12.99
+       3        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       7        1500 TO 9999999: 15.00+
+  -------
+      57
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       7
+TOTAL =========>      64   VALID SKIP(-4)    7426     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:          40833        Mean:             1703.51
+ 
+Lead In: T20180.00[Default]
+Default Next Question: T20182.00
+--------------------------------------------------------------------------------
+T20182.00    [CV_HRLY_PAY.06]                               Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 06
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       1         700 TO 799: 7.00-7.99
+       6         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       2        1000 TO 1099: 10.00-10.99
+       1        1100 TO 1199: 11.00-11.99
+       2        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       6        1500 TO 9999999: 15.00+
+  -------
+      18
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>      21   VALID SKIP(-4)    7469     NON-INTERVIEW(-5)    1494
+ 
+Min:            700        Max:           7500        Mean:             1860.94
+ 
+Lead In: T20181.00[Default]
+Default Next Question: T20183.00
+--------------------------------------------------------------------------------
+T20183.00    [CV_HRLY_PAY.07]                               Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 07
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       1        1200 TO 1299: 12.00-12.99
+       1        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>       9   VALID SKIP(-4)    7481     NON-INTERVIEW(-5)    1494
+ 
+Min:            950        Max:           1490        Mean:                1237
+ 
+Lead In: T20182.00[Default]
+Default Next Question: T20184.00
+--------------------------------------------------------------------------------
+T20184.00    [CV_HRLY_PAY.08]                               Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 08
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       1         600 TO 699: 6.00-6.99
+       1         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       4   VALID SKIP(-4)    7486     NON-INTERVIEW(-5)    1494
+ 
+Min:            675        Max:            715        Mean:                 695
+ 
+Lead In: T20183.00[Default]
+Default Next Question: T20185.00
+--------------------------------------------------------------------------------
+T36081.00    [CV_HRLY_PAY.01]                               Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 01
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      74           0
+      35           1 TO 99: .01-.99
+      24         100 TO 199: 1.00-1.99
+      79         200 TO 299: 2.00-2.99
+      50         300 TO 399: 3.00-3.99
+      54         400 TO 499: 4.00-4.99
+      68         500 TO 599: 5.00-5.99
+      77         600 TO 699: 6.00-6.99
+     377         700 TO 799: 7.00-7.99
+     533         800 TO 899: 8.00-8.99
+     437         900 TO 999: 9.00-9.99
+     527        1000 TO 1099: 10.00-10.99
+     396        1100 TO 1199: 11.00-11.99
+     414        1200 TO 1299: 12.00-12.99
+     329        1300 TO 1399: 13.00-13.99
+     320        1400 TO 1499: 14.00-14.99
+    2492        1500 TO 9999999: 15.00+
+  -------
+    6286
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     165
+TOTAL =========>    6451   VALID SKIP(-4)    1108     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:        9000000        Mean:             3354.62
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T36080.00[Default]
+Default Next Question: T36082.00
+--------------------------------------------------------------------------------
+T36082.00    [CV_HRLY_PAY.02]                               Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 02
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+      48           0
+      14           1 TO 99: .01-.99
+      12         100 TO 199: 1.00-1.99
+      45         200 TO 299: 2.00-2.99
+      19         300 TO 399: 3.00-3.99
+      18         400 TO 499: 4.00-4.99
+      26         500 TO 599: 5.00-5.99
+      52         600 TO 699: 6.00-6.99
+     189         700 TO 799: 7.00-7.99
+     232         800 TO 899: 8.00-8.99
+     166         900 TO 999: 9.00-9.99
+     241        1000 TO 1099: 10.00-10.99
+      99        1100 TO 1199: 11.00-11.99
+     160        1200 TO 1299: 12.00-12.99
+      91        1300 TO 1399: 13.00-13.99
+      73        1400 TO 1499: 14.00-14.99
+     632        1500 TO 9999999: 15.00+
+  -------
+    2117
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      83
+TOTAL =========>    2200   VALID SKIP(-4)    5359     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:        2000000        Mean:             2614.38
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T36081.00[Default]
+Default Next Question: T36083.00
+--------------------------------------------------------------------------------
+T36083.00    [CV_HRLY_PAY.03]                               Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 03
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       8           0
+       5           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+      15         200 TO 299: 2.00-2.99
+       4         300 TO 399: 3.00-3.99
+       4         400 TO 499: 4.00-4.99
+      13         500 TO 599: 5.00-5.99
+      17         600 TO 699: 6.00-6.99
+      39         700 TO 799: 7.00-7.99
+      61         800 TO 899: 8.00-8.99
+      40         900 TO 999: 9.00-9.99
+      56        1000 TO 1099: 10.00-10.99
+      31        1100 TO 1199: 11.00-11.99
+      28        1200 TO 1299: 12.00-12.99
+      18        1300 TO 1399: 13.00-13.99
+      18        1400 TO 1499: 14.00-14.99
+     157        1500 TO 9999999: 15.00+
+  -------
+     515
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      29
+TOTAL =========>     544   VALID SKIP(-4)    7015     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:          80000        Mean:             2068.53
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T36082.00[Default]
+Default Next Question: T36084.00
+--------------------------------------------------------------------------------
+T36084.00    [CV_HRLY_PAY.04]                               Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 04
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       4           0
+       3           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       7         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       3         500 TO 599: 5.00-5.99
+       9         600 TO 699: 6.00-6.99
+      11         700 TO 799: 7.00-7.99
+      23         800 TO 899: 8.00-8.99
+      12         900 TO 999: 9.00-9.99
+      17        1000 TO 1099: 10.00-10.99
+       3        1100 TO 1199: 11.00-11.99
+       7        1200 TO 1299: 12.00-12.99
+       8        1300 TO 1399: 13.00-13.99
+       5        1400 TO 1499: 14.00-14.99
+      31        1500 TO 9999999: 15.00+
+  -------
+     146
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       7
+TOTAL =========>     153   VALID SKIP(-4)    7406     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:          16667        Mean:              1398.2
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T36083.00[Default]
+Default Next Question: T36085.00
+--------------------------------------------------------------------------------
+T36085.00    [CV_HRLY_PAY.05]                               Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 05
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       2           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       1         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       2         600 TO 699: 6.00-6.99
+       5         700 TO 799: 7.00-7.99
+       2         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       7        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       4        1200 TO 1299: 12.00-12.99
+       1        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+      10        1500 TO 9999999: 15.00+
+  -------
+      39
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>      40   VALID SKIP(-4)    7519     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:          10000        Mean:             1416.79
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T36084.00[Default]
+Default Next Question: T36086.00
+--------------------------------------------------------------------------------
+T36086.00    [CV_HRLY_PAY.06]                               Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 06
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       1         600 TO 699: 6.00-6.99
+       1         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       2         900 TO 999: 9.00-9.99
+       2        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       3        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+       2        1500 TO 9999999: 15.00+
+  -------
+      14
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>      15   VALID SKIP(-4)    7544     NON-INTERVIEW(-5)    1425
+ 
+Min:            333        Max:           7000        Mean:             1650.79
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T36085.00[Default]
+Default Next Question: T36087.00
+--------------------------------------------------------------------------------
+T36087.00    [CV_HRLY_PAY.07]                               Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 07
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       2         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       2        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       6
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       6   VALID SKIP(-4)    7553     NON-INTERVIEW(-5)    1425
+ 
+Min:            700        Max:          22727        Mean:             4492.83
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T36086.00[Default]
+Default Next Question: T36088.00
+--------------------------------------------------------------------------------
+T36088.00    [CV_HRLY_PAY.08]                               Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 08
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       1         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7557     NON-INTERVIEW(-5)    1425
+ 
+Min:            700        Max:            827        Mean:               763.5
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T36087.00[Default]
+Default Next Question: T36089.00
+--------------------------------------------------------------------------------
+T36089.00    [CV_HRLY_PAY.09]                               Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 09
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+2 IMPLIED DECIMAL PLACES
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7558     NON-INTERVIEW(-5)    1425
+ 
+Min:          17857        Max:          17857        Mean:               17857
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T36088.00[Default]
+Default Next Question: T36090.00
+--------------------------------------------------------------------------------
+T52085.00    [CV_HRLY_PAY.01]                               Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 01
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      77           0
+      24           1 TO 99: .01-.99
+      21         100 TO 199: 1.00-1.99
+      72         200 TO 299: 2.00-2.99
+      34         300 TO 399: 3.00-3.99
+      40         400 TO 499: 4.00-4.99
+      41         500 TO 599: 5.00-5.99
+      52         600 TO 699: 6.00-6.99
+     343         700 TO 799: 7.00-7.99
+     484         800 TO 899: 8.00-8.99
+     410         900 TO 999: 9.00-9.99
+     488        1000 TO 1099: 10.00-10.99
+     309        1100 TO 1199: 11.00-11.99
+     403        1200 TO 1299: 12.00-12.99
+     342        1300 TO 1399: 13.00-13.99
+     314        1400 TO 1499: 14.00-14.99
+    2618        1500 TO 9999999: 15.00+
+  -------
+    6072
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     173
+TOTAL =========>    6245   VALID SKIP(-4)    1234     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:         600000        Mean:             1995.83
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T52084.00[Default]
+Default Next Question: T52086.00
+--------------------------------------------------------------------------------
+T52086.00    [CV_HRLY_PAY.02]                               Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 02
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      46           0
+      25           1 TO 99: .01-.99
+      10         100 TO 199: 1.00-1.99
+      31         200 TO 299: 2.00-2.99
+      27         300 TO 399: 3.00-3.99
+      25         400 TO 499: 4.00-4.99
+      33         500 TO 599: 5.00-5.99
+      26         600 TO 699: 6.00-6.99
+     153         700 TO 799: 7.00-7.99
+     246         800 TO 899: 8.00-8.99
+     165         900 TO 999: 9.00-9.99
+     217        1000 TO 1099: 10.00-10.99
+     108        1100 TO 1199: 11.00-11.99
+     146        1200 TO 1299: 12.00-12.99
+      89        1300 TO 1399: 13.00-13.99
+      92        1400 TO 1499: 14.00-14.99
+     645        1500 TO 9999999: 15.00+
+  -------
+    2084
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      94
+TOTAL =========>    2178   VALID SKIP(-4)    5301     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:        4500000        Mean:             4909.21
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T52085.00[Default]
+Default Next Question: T52087.00
+--------------------------------------------------------------------------------
+T52087.00    [CV_HRLY_PAY.03]                               Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 03
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      10           0
+       6           1 TO 99: .01-.99
+       7         100 TO 199: 1.00-1.99
+      13         200 TO 299: 2.00-2.99
+       5         300 TO 399: 3.00-3.99
+      10         400 TO 499: 4.00-4.99
+       5         500 TO 599: 5.00-5.99
+       6         600 TO 699: 6.00-6.99
+      45         700 TO 799: 7.00-7.99
+      61         800 TO 899: 8.00-8.99
+      38         900 TO 999: 9.00-9.99
+      55        1000 TO 1099: 10.00-10.99
+      28        1100 TO 1199: 11.00-11.99
+      40        1200 TO 1299: 12.00-12.99
+      17        1300 TO 1399: 13.00-13.99
+      19        1400 TO 1499: 14.00-14.99
+     164        1500 TO 9999999: 15.00+
+  -------
+     529
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      25
+TOTAL =========>     554   VALID SKIP(-4)    6925     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:        3800000        Mean:             9077.93
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T52086.00[Default]
+Default Next Question: T52088.00
+--------------------------------------------------------------------------------
+T52088.00    [CV_HRLY_PAY.04]                               Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 04
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       1           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       3         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       2         500 TO 599: 5.00-5.99
+       2         600 TO 699: 6.00-6.99
+      11         700 TO 799: 7.00-7.99
+      11         800 TO 899: 8.00-8.99
+      11         900 TO 999: 9.00-9.99
+      12        1000 TO 1099: 10.00-10.99
+       4        1100 TO 1199: 11.00-11.99
+      12        1200 TO 1299: 12.00-12.99
+       5        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+      51        1500 TO 9999999: 15.00+
+  -------
+     128
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      10
+TOTAL =========>     138   VALID SKIP(-4)    7341     NON-INTERVIEW(-5)    1505
+ 
+Min:              3        Max:           6667        Mean:             1492.04
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T52087.00[Default]
+Default Next Question: T52089.00
+--------------------------------------------------------------------------------
+T52089.00    [CV_HRLY_PAY.05]                               Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 05
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       2           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       1         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       1         600 TO 699: 6.00-6.99
+       4         700 TO 799: 7.00-7.99
+       6         800 TO 899: 8.00-8.99
+       5         900 TO 999: 9.00-9.99
+       2        1000 TO 1099: 10.00-10.99
+       1        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+      13        1500 TO 9999999: 15.00+
+  -------
+      37
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>      40   VALID SKIP(-4)    7439     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:           4000        Mean:             1295.32
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T52088.00[Default]
+Default Next Question: T52090.00
+--------------------------------------------------------------------------------
+T52090.00    [CV_HRLY_PAY.06]                               Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 06
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       2         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       1        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       2        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       3        1500 TO 9999999: 15.00+
+  -------
+       8
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       9   VALID SKIP(-4)    7470     NON-INTERVIEW(-5)    1505
+ 
+Min:            800        Max:           2093        Mean:             1360.38
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T52089.00[Default]
+Default Next Question: T52091.00
+--------------------------------------------------------------------------------
+T52091.00    [CV_HRLY_PAY.07]                               Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 07
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       1           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7477     NON-INTERVIEW(-5)    1505
+ 
+Min:             33        Max:           2286        Mean:              1159.5
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T52090.00[Default]
+Default Next Question: T52092.00
+--------------------------------------------------------------------------------
+T52092.00    [CV_HRLY_PAY.08]                               Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 08
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7478     NON-INTERVIEW(-5)    1505
+ 
+Min:           1400        Max:           1400        Mean:                1400
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T52091.00[Default]
+Default Next Question: T52093.00
+--------------------------------------------------------------------------------
+T52093.00    [CV_HRLY_PAY.09]                               Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 09
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       1         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7478     NON-INTERVIEW(-5)    1505
+ 
+Min:            640        Max:            640        Mean:                 640
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T52092.00[Default]
+Default Next Question: T52094.00
+--------------------------------------------------------------------------------
+T66587.00    [CV_HRLY_PAY.01]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 01
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      70           0
+      17           1 TO 99: .01-.99
+      12         100 TO 199: 1.00-1.99
+      53         200 TO 299: 2.00-2.99
+      31         300 TO 399: 3.00-3.99
+      30         400 TO 499: 4.00-4.99
+      53         500 TO 599: 5.00-5.99
+      50         600 TO 699: 6.00-6.99
+     298         700 TO 799: 7.00-7.99
+     415         800 TO 899: 8.00-8.99
+     403         900 TO 999: 9.00-9.99
+     451        1000 TO 1099: 10.00-10.99
+     320        1100 TO 1199: 11.00-11.99
+     385        1200 TO 1299: 12.00-12.99
+     333        1300 TO 1399: 13.00-13.99
+     280        1400 TO 1499: 14.00-14.99
+    2803        1500 TO 9999999: 15.00+
+  -------
+    6004
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     150
+TOTAL =========>    6154   VALID SKIP(-4)    1269     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:         288000        Mean:             2000.11
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66586.00[Default]
+Default Next Question: T66588.00
+--------------------------------------------------------------------------------
+T66588.00    [CV_HRLY_PAY.02]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 02
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      42           0
+      18           1 TO 99: .01-.99
+      14         100 TO 199: 1.00-1.99
+      33         200 TO 299: 2.00-2.99
+       9         300 TO 399: 3.00-3.99
+      22         400 TO 499: 4.00-4.99
+      28         500 TO 599: 5.00-5.99
+      26         600 TO 699: 6.00-6.99
+     118         700 TO 799: 7.00-7.99
+     187         800 TO 899: 8.00-8.99
+     115         900 TO 999: 9.00-9.99
+     169        1000 TO 1099: 10.00-10.99
+      92        1100 TO 1199: 11.00-11.99
+     119        1200 TO 1299: 12.00-12.99
+      78        1300 TO 1399: 13.00-13.99
+      71        1400 TO 1499: 14.00-14.99
+     631        1500 TO 9999999: 15.00+
+  -------
+    1772
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      86
+TOTAL =========>    1858   VALID SKIP(-4)    5565     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:        1120000        Mean:             2743.69
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66587.00[Default]
+Default Next Question: T66589.00
+--------------------------------------------------------------------------------
+T66589.00    [CV_HRLY_PAY.03]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 03
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       6           0
+       8           1 TO 99: .01-.99
+       5         100 TO 199: 1.00-1.99
+      11         200 TO 299: 2.00-2.99
+       4         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       7         500 TO 599: 5.00-5.99
+       5         600 TO 699: 6.00-6.99
+      28         700 TO 799: 7.00-7.99
+      42         800 TO 899: 8.00-8.99
+      33         900 TO 999: 9.00-9.99
+      37        1000 TO 1099: 10.00-10.99
+      24        1100 TO 1199: 11.00-11.99
+      27        1200 TO 1299: 12.00-12.99
+      17        1300 TO 1399: 13.00-13.99
+      11        1400 TO 1499: 14.00-14.99
+     142        1500 TO 9999999: 15.00+
+  -------
+     408
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      19
+TOTAL =========>     427   VALID SKIP(-4)    6996     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:          76923        Mean:             2007.14
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66588.00[Default]
+Default Next Question: T66590.00
+--------------------------------------------------------------------------------
+T66590.00    [CV_HRLY_PAY.04]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 04
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       3           0
+       0           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       1         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       3         600 TO 699: 6.00-6.99
+       7         700 TO 799: 7.00-7.99
+      11         800 TO 899: 8.00-8.99
+       8         900 TO 999: 9.00-9.99
+       9        1000 TO 1099: 10.00-10.99
+       5        1100 TO 1199: 11.00-11.99
+      10        1200 TO 1299: 12.00-12.99
+       6        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+      44        1500 TO 9999999: 15.00+
+  -------
+     110
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       6
+TOTAL =========>     116   VALID SKIP(-4)    7307     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:           6000        Mean:             1665.73
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66589.00[Default]
+Default Next Question: T66591.00
+--------------------------------------------------------------------------------
+T66591.00    [CV_HRLY_PAY.05]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 05
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       2           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       1         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       1         600 TO 699: 6.00-6.99
+       2         700 TO 799: 7.00-7.99
+       6         800 TO 899: 8.00-8.99
+       3         900 TO 999: 9.00-9.99
+       3        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       1        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+       8        1500 TO 9999999: 15.00+
+  -------
+      29
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>      31   VALID SKIP(-4)    7392     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:           6000        Mean:             1300.86
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66590.00[Default]
+Default Next Question: T66592.00
+--------------------------------------------------------------------------------
+T66592.00    [CV_HRLY_PAY.06]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 06
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       1         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       1        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       3        1500 TO 9999999: 15.00+
+  -------
+       6
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       7   VALID SKIP(-4)    7416     NON-INTERVIEW(-5)    1561
+ 
+Min:            725        Max:           3800        Mean:                1700
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66591.00[Default]
+Default Next Question: T66593.00
+--------------------------------------------------------------------------------
+T66593.00    [CV_HRLY_PAY.07]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 07
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       1        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       3   VALID SKIP(-4)    7420     NON-INTERVIEW(-5)    1561
+ 
+Min:            929        Max:           2800        Mean:             1576.33
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66592.00[Default]
+Default Next Question: T66594.00
+--------------------------------------------------------------------------------
+T66594.00    [CV_HRLY_PAY.08]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 08
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       2        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    7421     NON-INTERVIEW(-5)    1561
+ 
+Min:           1500        Max:           1650        Mean:                1575
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66593.00[Default]
+Default Next Question: T66595.00
+--------------------------------------------------------------------------------
+T66595.00    [CV_HRLY_PAY.09]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 09
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       1        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7422     NON-INTERVIEW(-5)    1561
+ 
+Min:           1050        Max:           1050        Mean:                1050
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66594.00[Default]
+Default Next Question: T66596.00
+--------------------------------------------------------------------------------
+T66596.00    [CV_HRLY_PAY.10]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 10
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7422     NON-INTERVIEW(-5)    1561
+ 
+Min:            325        Max:            325        Mean:                 325
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66595.00[Default]
+Default Next Question: T66597.00
+--------------------------------------------------------------------------------
+T66597.00    [CV_HRLY_PAY.11]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 11
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7422     NON-INTERVIEW(-5)    1561
+ 
+Min:            950        Max:            950        Mean:                 950
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66596.00[Default]
+Default Next Question: T66598.00
+--------------------------------------------------------------------------------
+T66598.00    [CV_HRLY_PAY.12]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 12
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       1        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7422     NON-INTERVIEW(-5)    1561
+ 
+Min:           1000        Max:           1000        Mean:                1000
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66597.00[Default]
+Default Next Question: T66599.00
+--------------------------------------------------------------------------------
+T66599.00    [CV_HRLY_PAY.13]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 13
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       1           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7422     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:              0        Mean:                   0
+ 
+Hard Minimum: [0]  Hard Maximum: [3000.00]
+ 
+Lead In: T66598.00[Default]
+Default Next Question: T66600.00
+--------------------------------------------------------------------------------
+T81308.00    [CV_HRLY_PAY.01]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 01
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      72           0
+      18           1 TO 99: .01-.99
+      15         100 TO 199: 1.00-1.99
+      62         200 TO 299: 2.00-2.99
+      37         300 TO 399: 3.00-3.99
+      30         400 TO 499: 4.00-4.99
+      47         500 TO 599: 5.00-5.99
+      27         600 TO 699: 6.00-6.99
+     253         700 TO 799: 7.00-7.99
+     363         800 TO 899: 8.00-8.99
+     335         900 TO 999: 9.00-9.99
+     457        1000 TO 1099: 10.00-10.99
+     290        1100 TO 1199: 11.00-11.99
+     319        1200 TO 1299: 12.00-12.99
+     295        1300 TO 1399: 13.00-13.99
+     270        1400 TO 1499: 14.00-14.99
+    3159        1500 TO 9999999: 15.00+
+  -------
+    6049
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     174
+TOTAL =========>    6223   VALID SKIP(-4)     917     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:        3000000        Mean:             2753.49
+ 
+Hard Minimum: [0]  Hard Maximum: [99999.99]
+ 
+Lead In: T81307.00[Default]
+Default Next Question: T81309.00
+--------------------------------------------------------------------------------
+T81309.00    [CV_HRLY_PAY.02]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 02
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      50           0
+      15           1 TO 99: .01-.99
+       7         100 TO 199: 1.00-1.99
+      38         200 TO 299: 2.00-2.99
+      23         300 TO 399: 3.00-3.99
+      20         400 TO 499: 4.00-4.99
+      24         500 TO 599: 5.00-5.99
+      27         600 TO 699: 6.00-6.99
+     165         700 TO 799: 7.00-7.99
+     236         800 TO 899: 8.00-8.99
+     204         900 TO 999: 9.00-9.99
+     252        1000 TO 1099: 10.00-10.99
+     140        1100 TO 1199: 11.00-11.99
+     203        1200 TO 1299: 12.00-12.99
+     127        1300 TO 1399: 13.00-13.99
+     100        1400 TO 1499: 14.00-14.99
+     999        1500 TO 9999999: 15.00+
+  -------
+    2630
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      94
+TOTAL =========>    2724   VALID SKIP(-4)    4416     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:          75000        Mean:             1848.88
+ 
+Hard Minimum: [0]  Hard Maximum: [99999.99]
+ 
+Lead In: T81308.00[Default]
+Default Next Question: T81310.00
+--------------------------------------------------------------------------------
+T81310.00    [CV_HRLY_PAY.03]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 03
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      17           0
+       2           1 TO 99: .01-.99
+       6         100 TO 199: 1.00-1.99
+      11         200 TO 299: 2.00-2.99
+       5         300 TO 399: 3.00-3.99
+       8         400 TO 499: 4.00-4.99
+      13         500 TO 599: 5.00-5.99
+      11         600 TO 699: 6.00-6.99
+      60         700 TO 799: 7.00-7.99
+     102         800 TO 899: 8.00-8.99
+      89         900 TO 999: 9.00-9.99
+     111        1000 TO 1099: 10.00-10.99
+      50        1100 TO 1199: 11.00-11.99
+      86        1200 TO 1299: 12.00-12.99
+      38        1300 TO 1399: 13.00-13.99
+      29        1400 TO 1499: 14.00-14.99
+     313        1500 TO 9999999: 15.00+
+  -------
+     951
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      29
+TOTAL =========>     980   VALID SKIP(-4)    6160     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:        1000000        Mean:             2753.31
+ 
+Hard Minimum: [0]  Hard Maximum: [99999.99]
+ 
+Lead In: T81309.00[Default]
+Default Next Question: T81311.00
+--------------------------------------------------------------------------------
+T81311.00    [CV_HRLY_PAY.04]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 04
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       5           0
+       3           1 TO 99: .01-.99
+       3         100 TO 199: 1.00-1.99
+       7         200 TO 299: 2.00-2.99
+       3         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       2         500 TO 599: 5.00-5.99
+       1         600 TO 699: 6.00-6.99
+      18         700 TO 799: 7.00-7.99
+      34         800 TO 899: 8.00-8.99
+      29         900 TO 999: 9.00-9.99
+      34        1000 TO 1099: 10.00-10.99
+      18        1100 TO 1199: 11.00-11.99
+      23        1200 TO 1299: 12.00-12.99
+      13        1300 TO 1399: 13.00-13.99
+       4        1400 TO 1499: 14.00-14.99
+     104        1500 TO 9999999: 15.00+
+  -------
+     302
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      20
+TOTAL =========>     322   VALID SKIP(-4)    6818     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:          10000        Mean:             1469.25
+ 
+Hard Minimum: [0]  Hard Maximum: [99999.99]
+ 
+Lead In: T81310.00[Default]
+Default Next Question: T81312.00
+--------------------------------------------------------------------------------
+T81312.00    [CV_HRLY_PAY.05]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 05
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       2           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       2         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       3         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       7         700 TO 799: 7.00-7.99
+      10         800 TO 899: 8.00-8.99
+       6         900 TO 999: 9.00-9.99
+      16        1000 TO 1099: 10.00-10.99
+       8        1100 TO 1199: 11.00-11.99
+       4        1200 TO 1299: 12.00-12.99
+       1        1300 TO 1399: 13.00-13.99
+       3        1400 TO 1499: 14.00-14.99
+      34        1500 TO 9999999: 15.00+
+  -------
+      97
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       8
+TOTAL =========>     105   VALID SKIP(-4)    7035     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:         120000        Mean:             2835.63
+ 
+Hard Minimum: [0]  Hard Maximum: [99999.99]
+ 
+Lead In: T81311.00[Default]
+Default Next Question: T81313.00
+--------------------------------------------------------------------------------
+T81313.00    [CV_HRLY_PAY.06]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 06
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       1         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       1         700 TO 799: 7.00-7.99
+       3         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       3        1000 TO 1099: 10.00-10.99
+       1        1100 TO 1199: 11.00-11.99
+       2        1200 TO 1299: 12.00-12.99
+       3        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       6        1500 TO 9999999: 15.00+
+  -------
+      23
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>      27   VALID SKIP(-4)    7113     NON-INTERVIEW(-5)    1844
+ 
+Min:            199        Max:           3005        Mean:              1248.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999.99]
+ 
+Lead In: T81312.00[Default]
+Default Next Question: T81314.00
+--------------------------------------------------------------------------------
+T81314.00    [CV_HRLY_PAY.07]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 07
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       1         600 TO 699: 6.00-6.99
+       1         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       1        1100 TO 1199: 11.00-11.99
+       1        1200 TO 1299: 12.00-12.99
+       1        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       2        1500 TO 9999999: 15.00+
+  -------
+      11
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>      12   VALID SKIP(-4)    7128     NON-INTERVIEW(-5)    1844
+ 
+Min:            100        Max:           3147        Mean:             1150.36
+ 
+Hard Minimum: [0]  Hard Maximum: [99999.99]
+ 
+Lead In: T81313.00[Default]
+Default Next Question: T81315.00
+--------------------------------------------------------------------------------
+T81315.00    [CV_HRLY_PAY.08]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 08
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       1           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       1        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       4   VALID SKIP(-4)    7136     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:           1010        Mean:                 636
+ 
+Hard Minimum: [0]  Hard Maximum: [99999.99]
+ 
+Lead In: T81314.00[Default]
+Default Next Question: T81316.00
+--------------------------------------------------------------------------------
+T81316.00    [CV_HRLY_PAY.09]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 09
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       2   VALID SKIP(-4)    7138     NON-INTERVIEW(-5)    1844
+ 
+Min:            133        Max:            133        Mean:                 133
+ 
+Hard Minimum: [0]  Hard Maximum: [99999.99]
+ 
+Lead In: T81315.00[Default]
+Default Next Question: T81317.00
+--------------------------------------------------------------------------------
+T81317.00    [CV_HRLY_PAY.10]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 10
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7139     NON-INTERVIEW(-5)    1844
+ 
+Min:            820        Max:            820        Mean:                 820
+ 
+Hard Minimum: [0]  Hard Maximum: [99999.99]
+ 
+Lead In: T81316.00[Default]
+Default Next Question: T81318.00
+--------------------------------------------------------------------------------
+U00107.00    [CV_HRLY_PAY.01]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 01
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      66           0
+      22           1 TO 99: .01-.99
+       4         100 TO 199: 1.00-1.99
+      53         200 TO 299: 2.00-2.99
+      21         300 TO 399: 3.00-3.99
+      27         400 TO 499: 4.00-4.99
+      36         500 TO 599: 5.00-5.99
+      28         600 TO 699: 6.00-6.99
+     134         700 TO 799: 7.00-7.99
+     236         800 TO 899: 8.00-8.99
+     340         900 TO 999: 9.00-9.99
+     382        1000 TO 1099: 10.00-10.99
+     295        1100 TO 1199: 11.00-11.99
+     309        1200 TO 1299: 12.00-12.99
+     258        1300 TO 1399: 13.00-13.99
+     292        1400 TO 1499: 14.00-14.99
+    3516        1500 TO 9999999: 15.00+
+  -------
+    6019
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     193
+TOTAL =========>    6212   VALID SKIP(-4)     891     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:         740000        Mean:             2434.28
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00106.00[Default]
+Default Next Question: U00108.00
+--------------------------------------------------------------------------------
+U00108.00    [CV_HRLY_PAY.02]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 02
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      56           0
+       7           1 TO 99: .01-.99
+       4         100 TO 199: 1.00-1.99
+      31         200 TO 299: 2.00-2.99
+      16         300 TO 399: 3.00-3.99
+      12         400 TO 499: 4.00-4.99
+      17         500 TO 599: 5.00-5.99
+      19         600 TO 699: 6.00-6.99
+      90         700 TO 799: 7.00-7.99
+     152         800 TO 899: 8.00-8.99
+     186         900 TO 999: 9.00-9.99
+     211        1000 TO 1099: 10.00-10.99
+     137        1100 TO 1199: 11.00-11.99
+     160        1200 TO 1299: 12.00-12.99
+     116        1300 TO 1399: 13.00-13.99
+     101        1400 TO 1499: 14.00-14.99
+    1107        1500 TO 9999999: 15.00+
+  -------
+    2422
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     199
+TOTAL =========>    2621   VALID SKIP(-4)    4482     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:         500000        Mean:             2487.82
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00107.00[Default]
+Default Next Question: U00109.00
+--------------------------------------------------------------------------------
+U00109.00    [CV_HRLY_PAY.03]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 03
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      14           0
+       2           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+      11         200 TO 299: 2.00-2.99
+       5         300 TO 399: 3.00-3.99
+       7         400 TO 499: 4.00-4.99
+      17         500 TO 599: 5.00-5.99
+       2         600 TO 699: 6.00-6.99
+      31         700 TO 799: 7.00-7.99
+      64         800 TO 899: 8.00-8.99
+      64         900 TO 999: 9.00-9.99
+      80        1000 TO 1099: 10.00-10.99
+      37        1100 TO 1199: 11.00-11.99
+      52        1200 TO 1299: 12.00-12.99
+      38        1300 TO 1399: 13.00-13.99
+      39        1400 TO 1499: 14.00-14.99
+     321        1500 TO 9999999: 15.00+
+  -------
+     785
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      77
+TOTAL =========>     862   VALID SKIP(-4)    6241     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:        4000000        Mean:             6926.57
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00108.00[Default]
+Default Next Question: U00110.00
+--------------------------------------------------------------------------------
+U00110.00    [CV_HRLY_PAY.04]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 04
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       8           0
+       0           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       6         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       3         500 TO 599: 5.00-5.99
+       3         600 TO 699: 6.00-6.99
+      10         700 TO 799: 7.00-7.99
+      19         800 TO 899: 8.00-8.99
+      18         900 TO 999: 9.00-9.99
+      25        1000 TO 1099: 10.00-10.99
+      17        1100 TO 1199: 11.00-11.99
+      25        1200 TO 1299: 12.00-12.99
+      13        1300 TO 1399: 13.00-13.99
+       5        1400 TO 1499: 14.00-14.99
+      92        1500 TO 9999999: 15.00+
+  -------
+     245
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      30
+TOTAL =========>     275   VALID SKIP(-4)    6828     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:          12692        Mean:             1502.96
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00109.00[Default]
+Default Next Question: U00111.00
+--------------------------------------------------------------------------------
+U00111.00    [CV_HRLY_PAY.05]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 05
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       1           0
+       2           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       2         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       2         700 TO 799: 7.00-7.99
+       6         800 TO 899: 8.00-8.99
+      10         900 TO 999: 9.00-9.99
+       5        1000 TO 1099: 10.00-10.99
+       4        1100 TO 1199: 11.00-11.99
+       3        1200 TO 1299: 12.00-12.99
+       4        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+      26        1500 TO 9999999: 15.00+
+  -------
+      68
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      19
+TOTAL =========>      87   VALID SKIP(-4)    7016     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:          12500        Mean:             1753.28
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00110.00[Default]
+Default Next Question: U00112.00
+--------------------------------------------------------------------------------
+U00112.00    [CV_HRLY_PAY.06]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 06
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       1           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       1         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       4         700 TO 799: 7.00-7.99
+       2         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       1        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+       7        1500 TO 9999999: 15.00+
+  -------
+      18
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       6
+TOTAL =========>      24   VALID SKIP(-4)    7079     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:          10121        Mean:             1751.39
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00111.00[Default]
+Default Next Question: U00113.00
+--------------------------------------------------------------------------------
+U00113.00    [CV_HRLY_PAY.07]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 07
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       1        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       3        1500 TO 9999999: 15.00+
+  -------
+       6
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>      10   VALID SKIP(-4)    7093     NON-INTERVIEW(-5)    1881
+ 
+Min:            800        Max:           5000        Mean:             2353.67
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00112.00[Default]
+Default Next Question: U00114.00
+--------------------------------------------------------------------------------
+U00114.00    [CV_HRLY_PAY.08]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 08
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       2        1500 TO 9999999: 15.00+
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       6   VALID SKIP(-4)    7097     NON-INTERVIEW(-5)    1881
+ 
+Min:            875        Max:           5000        Mean:             2068.75
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00113.00[Default]
+Default Next Question: U00115.00
+--------------------------------------------------------------------------------
+U00115.00    [CV_HRLY_PAY.09]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 09
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:            545        Max:           5000        Mean:              2772.5
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00114.00[Default]
+Default Next Question: U00116.00
+--------------------------------------------------------------------------------
+U00116.00    [CV_HRLY_PAY.10]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 10
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:            545        Max:           5500        Mean:              3022.5
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00115.00[Default]
+Default Next Question: U00117.00
+--------------------------------------------------------------------------------
+U00117.00    [CV_HRLY_PAY.11]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 11
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       3   VALID SKIP(-4)    7100     NON-INTERVIEW(-5)    1881
+ 
+Min:            825        Max:           1500        Mean:              1162.5
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00116.00[Default]
+Default Next Question: U00118.00
+--------------------------------------------------------------------------------
+U00118.00    [CV_HRLY_PAY.12]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 12
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       0
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       1   VALID SKIP(-4)    7102     NON-INTERVIEW(-5)    1881
+ 
+Min:        Max:        Mean:                   0
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00117.00[Default]
+Default Next Question: U00119.00

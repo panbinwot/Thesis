@@ -1,0 +1,4192 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R05363.00    [KEY!SEX]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!SEX, RS GENDER (SYMBOL)
+ 
+COMMENT: Gender of Youth
+ 
+    4599       1 Male
+    4385       2 Female
+       0       0 No Information
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R00001.00[Default]
+Default Next Question: R05364.00
+--------------------------------------------------------------------------------
+R05364.01    [KEY!BDATE_M]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+     816           1: January
+     693           2: February
+     760           3: March
+     659           4: April
+     689           5: May
+     720           6: June
+     762           7: July
+     782           8: August
+     839           9: September
+     765          10: October
+     763          11: November
+     736          12: December
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             12        Mean:                6.56
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: R05363.00[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R05364.02    [KEY!BDATE_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1980        Max:           1984        Mean:             1982.01
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: R05363.00[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R12358.00    [CV_SAMPLE_TYPE]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             SAMPLE TYPE.  CROSS-SECTIONAL OR OVERSAMPLE
+ 
+Sample type: Is the respondent a member of the cross-sectional sample or the 
+oversample?
+ 
+    6748       1 Cross-sectional
+    2236       0 Oversample
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R12357.00[Default]
+Default Next Question: R12359.00
+--------------------------------------------------------------------------------
+R14826.00    [KEY!RACE_ETHNICITY]                           Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)
+ 
+COMMENT: Combined race - ethnicity variable
+ 
+    2335       1 Black
+    1901       2 Hispanic
+      83       3 Mixed Race (Non-Hispanic)
+    4665       4 Non-Black / Non-Hispanic
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R05387.00[Default]
+Default Next Question: R05389.00
+--------------------------------------------------------------------------------
+U00095.00    [CV_HRLY_COMPENSATION.01]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 01
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      32           0
+      19           1 TO 99: .01-.99
+       5         100 TO 199: 1.00-1.99
+      17         200 TO 299: 2.00-2.99
+      11         300 TO 399: 3.00-3.99
+      22         400 TO 499: 4.00-4.99
+      17         500 TO 599: 5.00-5.99
+      20         600 TO 699: 6.00-6.99
+     106         700 TO 799: 7.00-7.99
+     207         800 TO 899: 8.00-8.99
+     295         900 TO 999: 9.00-9.99
+     324        1000 TO 1099: 10.00-10.99
+     259        1100 TO 1199: 11.00-11.99
+     287        1200 TO 1299: 12.00-12.99
+     245        1300 TO 1399: 13.00-13.99
+     268        1400 TO 1499: 14.00-14.99
+    3707        1500 TO 9999999: 15.00+
+  -------
+    5841
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     371
+TOTAL =========>    6212   VALID SKIP(-4)     891     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:        6715110        Mean:             3914.04
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00094.00[Default]
+Default Next Question: U00096.00
+--------------------------------------------------------------------------------
+U00096.00    [CV_HRLY_COMPENSATION.02]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 02
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      32           0
+       7           1 TO 99: .01-.99
+       5         100 TO 199: 1.00-1.99
+      11         200 TO 299: 2.00-2.99
+      10         300 TO 399: 3.00-3.99
+       6         400 TO 499: 4.00-4.99
+      12         500 TO 599: 5.00-5.99
+      18         600 TO 699: 6.00-6.99
+      81         700 TO 799: 7.00-7.99
+     132         800 TO 899: 8.00-8.99
+     151         900 TO 999: 9.00-9.99
+     195        1000 TO 1099: 10.00-10.99
+     142        1100 TO 1199: 11.00-11.99
+     142        1200 TO 1299: 12.00-12.99
+     113        1300 TO 1399: 13.00-13.99
+     117        1400 TO 1499: 14.00-14.99
+    1186        1500 TO 9999999: 15.00+
+  -------
+    2360
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     261
+TOTAL =========>    2621   VALID SKIP(-4)    4482     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:         500000        Mean:             2618.31
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00095.00[Default]
+Default Next Question: U00097.00
+--------------------------------------------------------------------------------
+U00097.00    [CV_HRLY_COMPENSATION.03]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 03
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      10           0
+       1           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       4         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       5         400 TO 499: 4.00-4.99
+       9         500 TO 599: 5.00-5.99
+       1         600 TO 699: 6.00-6.99
+      28         700 TO 799: 7.00-7.99
+      59         800 TO 899: 8.00-8.99
+      60         900 TO 999: 9.00-9.99
+      74        1000 TO 1099: 10.00-10.99
+      35        1100 TO 1199: 11.00-11.99
+      47        1200 TO 1299: 12.00-12.99
+      36        1300 TO 1399: 13.00-13.99
+      35        1400 TO 1499: 14.00-14.99
+     351        1500 TO 9999999: 15.00+
+  -------
+     757
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     105
+TOTAL =========>     862   VALID SKIP(-4)    6241     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:        4000000        Mean:             8090.86
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00096.00[Default]
+Default Next Question: U00098.00
+--------------------------------------------------------------------------------
+U00098.00    [CV_HRLY_COMPENSATION.04]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 04
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       5           0
+       0           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       1         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       4         600 TO 699: 6.00-6.99
+       8         700 TO 799: 7.00-7.99
+      17         800 TO 899: 8.00-8.99
+      17         900 TO 999: 9.00-9.99
+      20        1000 TO 1099: 10.00-10.99
+      16        1100 TO 1199: 11.00-11.99
+      23        1200 TO 1299: 12.00-12.99
+      15        1300 TO 1399: 13.00-13.99
+       8        1400 TO 1499: 14.00-14.99
+     104        1500 TO 9999999: 15.00+
+  -------
+     240
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      35
+TOTAL =========>     275   VALID SKIP(-4)    6828     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:          82362        Mean:             2259.77
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00097.00[Default]
+Default Next Question: U00099.00
+--------------------------------------------------------------------------------
+U00099.00    [CV_HRLY_COMPENSATION.05]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 05
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       1           0
+       2           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       2         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       2         700 TO 799: 7.00-7.99
+       6         800 TO 899: 8.00-8.99
+       7         900 TO 999: 9.00-9.99
+       4        1000 TO 1099: 10.00-10.99
+       4        1100 TO 1199: 11.00-11.99
+       5        1200 TO 1299: 12.00-12.99
+       3        1300 TO 1399: 13.00-13.99
+       2        1400 TO 1499: 14.00-14.99
+      29        1500 TO 9999999: 15.00+
+  -------
+      67
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      20
+TOTAL =========>      87   VALID SKIP(-4)    7016     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:          12500        Mean:             1922.79
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00098.00[Default]
+Default Next Question: U00100.00
+--------------------------------------------------------------------------------
+U00100.00    [CV_HRLY_COMPENSATION.06]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 06
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       1           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       3         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       1        1300 TO 1399: 13.00-13.99
+       2        1400 TO 1499: 14.00-14.99
+       8        1500 TO 9999999: 15.00+
+  -------
+      18
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       6
+TOTAL =========>      24   VALID SKIP(-4)    7079     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:          10121        Mean:                1906
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00099.00[Default]
+Default Next Question: U00101.00
+--------------------------------------------------------------------------------
+U00101.00    [CV_HRLY_COMPENSATION.07]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 07
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       1        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       3        1500 TO 9999999: 15.00+
+  -------
+       6
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>      10   VALID SKIP(-4)    7093     NON-INTERVIEW(-5)    1881
+ 
+Min:            800        Max:           5278        Mean:             2406.67
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00100.00[Default]
+Default Next Question: U00102.00
+--------------------------------------------------------------------------------
+U00102.00    [CV_HRLY_COMPENSATION.08]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 08
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       2        1500 TO 9999999: 15.00+
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       6   VALID SKIP(-4)    7097     NON-INTERVIEW(-5)    1881
+ 
+Min:            875        Max:           5000        Mean:             2068.75
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00101.00[Default]
+Default Next Question: U00103.00
+--------------------------------------------------------------------------------
+U00103.00    [CV_HRLY_COMPENSATION.09]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 09
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       2        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:           1545        Max:           5278        Mean:              3411.5
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00102.00[Default]
+Default Next Question: U00104.00
+--------------------------------------------------------------------------------
+U00104.00    [CV_HRLY_COMPENSATION.10]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 10
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       1        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:           1345        Max:           5500        Mean:              3422.5
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00103.00[Default]
+Default Next Question: U00105.00
+--------------------------------------------------------------------------------
+U00105.00    [CV_HRLY_COMPENSATION.11]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 11
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       1        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       3   VALID SKIP(-4)    7100     NON-INTERVIEW(-5)    1881
+ 
+Min:           1325        Max:           1583        Mean:                1454
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00104.00[Default]
+Default Next Question: U00106.00
+--------------------------------------------------------------------------------
+U00106.00    [CV_HRLY_COMPENSATION.12]                      Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY COMPENSATION FOR JOB 12
+ 
+Hourly monetary compensation as of either the job's stop date or the interview 
+date for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       0
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       1   VALID SKIP(-4)    7102     NON-INTERVIEW(-5)    1881
+ 
+Min:        Max:        Mean:                   0
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00105.00[Default]
+Default Next Question: U00107.00
+--------------------------------------------------------------------------------
+U00107.00    [CV_HRLY_PAY.01]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 01
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      66           0
+      22           1 TO 99: .01-.99
+       4         100 TO 199: 1.00-1.99
+      53         200 TO 299: 2.00-2.99
+      21         300 TO 399: 3.00-3.99
+      27         400 TO 499: 4.00-4.99
+      36         500 TO 599: 5.00-5.99
+      28         600 TO 699: 6.00-6.99
+     134         700 TO 799: 7.00-7.99
+     236         800 TO 899: 8.00-8.99
+     340         900 TO 999: 9.00-9.99
+     382        1000 TO 1099: 10.00-10.99
+     295        1100 TO 1199: 11.00-11.99
+     309        1200 TO 1299: 12.00-12.99
+     258        1300 TO 1399: 13.00-13.99
+     292        1400 TO 1499: 14.00-14.99
+    3516        1500 TO 9999999: 15.00+
+  -------
+    6019
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     193
+TOTAL =========>    6212   VALID SKIP(-4)     891     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:         740000        Mean:             2434.28
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00106.00[Default]
+Default Next Question: U00108.00
+--------------------------------------------------------------------------------
+U00108.00    [CV_HRLY_PAY.02]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 02
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      56           0
+       7           1 TO 99: .01-.99
+       4         100 TO 199: 1.00-1.99
+      31         200 TO 299: 2.00-2.99
+      16         300 TO 399: 3.00-3.99
+      12         400 TO 499: 4.00-4.99
+      17         500 TO 599: 5.00-5.99
+      19         600 TO 699: 6.00-6.99
+      90         700 TO 799: 7.00-7.99
+     152         800 TO 899: 8.00-8.99
+     186         900 TO 999: 9.00-9.99
+     211        1000 TO 1099: 10.00-10.99
+     137        1100 TO 1199: 11.00-11.99
+     160        1200 TO 1299: 12.00-12.99
+     116        1300 TO 1399: 13.00-13.99
+     101        1400 TO 1499: 14.00-14.99
+    1107        1500 TO 9999999: 15.00+
+  -------
+    2422
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     199
+TOTAL =========>    2621   VALID SKIP(-4)    4482     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:         500000        Mean:             2487.82
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00107.00[Default]
+Default Next Question: U00109.00
+--------------------------------------------------------------------------------
+U00109.00    [CV_HRLY_PAY.03]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 03
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+      14           0
+       2           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+      11         200 TO 299: 2.00-2.99
+       5         300 TO 399: 3.00-3.99
+       7         400 TO 499: 4.00-4.99
+      17         500 TO 599: 5.00-5.99
+       2         600 TO 699: 6.00-6.99
+      31         700 TO 799: 7.00-7.99
+      64         800 TO 899: 8.00-8.99
+      64         900 TO 999: 9.00-9.99
+      80        1000 TO 1099: 10.00-10.99
+      37        1100 TO 1199: 11.00-11.99
+      52        1200 TO 1299: 12.00-12.99
+      38        1300 TO 1399: 13.00-13.99
+      39        1400 TO 1499: 14.00-14.99
+     321        1500 TO 9999999: 15.00+
+  -------
+     785
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      77
+TOTAL =========>     862   VALID SKIP(-4)    6241     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:        4000000        Mean:             6926.57
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00108.00[Default]
+Default Next Question: U00110.00
+--------------------------------------------------------------------------------
+U00110.00    [CV_HRLY_PAY.04]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 04
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       8           0
+       0           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       6         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       3         500 TO 599: 5.00-5.99
+       3         600 TO 699: 6.00-6.99
+      10         700 TO 799: 7.00-7.99
+      19         800 TO 899: 8.00-8.99
+      18         900 TO 999: 9.00-9.99
+      25        1000 TO 1099: 10.00-10.99
+      17        1100 TO 1199: 11.00-11.99
+      25        1200 TO 1299: 12.00-12.99
+      13        1300 TO 1399: 13.00-13.99
+       5        1400 TO 1499: 14.00-14.99
+      92        1500 TO 9999999: 15.00+
+  -------
+     245
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      30
+TOTAL =========>     275   VALID SKIP(-4)    6828     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:          12692        Mean:             1502.96
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00109.00[Default]
+Default Next Question: U00111.00
+--------------------------------------------------------------------------------
+U00111.00    [CV_HRLY_PAY.05]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 05
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       1           0
+       2           1 TO 99: .01-.99
+       1         100 TO 199: 1.00-1.99
+       2         200 TO 299: 2.00-2.99
+       1         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       2         700 TO 799: 7.00-7.99
+       6         800 TO 899: 8.00-8.99
+      10         900 TO 999: 9.00-9.99
+       5        1000 TO 1099: 10.00-10.99
+       4        1100 TO 1199: 11.00-11.99
+       3        1200 TO 1299: 12.00-12.99
+       4        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+      26        1500 TO 9999999: 15.00+
+  -------
+      68
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      19
+TOTAL =========>      87   VALID SKIP(-4)    7016     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:          12500        Mean:             1753.28
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00110.00[Default]
+Default Next Question: U00112.00
+--------------------------------------------------------------------------------
+U00112.00    [CV_HRLY_PAY.06]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 06
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       1           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       1         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       1         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       4         700 TO 799: 7.00-7.99
+       2         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       1        1300 TO 1399: 13.00-13.99
+       1        1400 TO 1499: 14.00-14.99
+       7        1500 TO 9999999: 15.00+
+  -------
+      18
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       6
+TOTAL =========>      24   VALID SKIP(-4)    7079     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:          10121        Mean:             1751.39
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00111.00[Default]
+Default Next Question: U00113.00
+--------------------------------------------------------------------------------
+U00113.00    [CV_HRLY_PAY.07]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 07
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       1        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       3        1500 TO 9999999: 15.00+
+  -------
+       6
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>      10   VALID SKIP(-4)    7093     NON-INTERVIEW(-5)    1881
+ 
+Min:            800        Max:           5000        Mean:             2353.67
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00112.00[Default]
+Default Next Question: U00114.00
+--------------------------------------------------------------------------------
+U00114.00    [CV_HRLY_PAY.08]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 08
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       1         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       2        1500 TO 9999999: 15.00+
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       6   VALID SKIP(-4)    7097     NON-INTERVIEW(-5)    1881
+ 
+Min:            875        Max:           5000        Mean:             2068.75
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00113.00[Default]
+Default Next Question: U00115.00
+--------------------------------------------------------------------------------
+U00115.00    [CV_HRLY_PAY.09]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 09
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:            545        Max:           5000        Mean:              2772.5
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00114.00[Default]
+Default Next Question: U00116.00
+--------------------------------------------------------------------------------
+U00116.00    [CV_HRLY_PAY.10]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 10
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       1         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:            545        Max:           5500        Mean:              3022.5
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00115.00[Default]
+Default Next Question: U00117.00
+--------------------------------------------------------------------------------
+U00117.00    [CV_HRLY_PAY.11]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 11
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       1         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       1        1500 TO 9999999: 15.00+
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       3   VALID SKIP(-4)    7100     NON-INTERVIEW(-5)    1881
+ 
+Min:            825        Max:           1500        Mean:              1162.5
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00116.00[Default]
+Default Next Question: U00118.00
+--------------------------------------------------------------------------------
+U00118.00    [CV_HRLY_PAY.12]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             WAGES - HOURLY RATE OF PAY FOR JOB 12
+ 
+The hourly rate of pay as of either the job's stop date or the interview date 
+for on-going jobs. If the job lasted 13 weeks or less this variable is 
+calculated as of the job's start date.
+ 
+COMMENT: although this calculation - which factors in the reported pay, rate of 
+pay time unit, and hours worked - can produce extremely low or extremely high 
+pay rates, these values are not edited.
+NOTE: 2 implied decimal places
+ 
+       0           0
+       0           1 TO 99: .01-.99
+       0         100 TO 199: 1.00-1.99
+       0         200 TO 299: 2.00-2.99
+       0         300 TO 399: 3.00-3.99
+       0         400 TO 499: 4.00-4.99
+       0         500 TO 599: 5.00-5.99
+       0         600 TO 699: 6.00-6.99
+       0         700 TO 799: 7.00-7.99
+       0         800 TO 899: 8.00-8.99
+       0         900 TO 999: 9.00-9.99
+       0        1000 TO 1099: 10.00-10.99
+       0        1100 TO 1199: 11.00-11.99
+       0        1200 TO 1299: 12.00-12.99
+       0        1300 TO 1399: 13.00-13.99
+       0        1400 TO 1499: 14.00-14.99
+       0        1500 TO 9999999: 15.00+
+  -------
+       0
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       1   VALID SKIP(-4)    7102     NON-INTERVIEW(-5)    1881
+ 
+Min:        Max:        Mean:                   0
+ 
+Hard Minimum: [0]  Hard Maximum: [999999.99]
+ 
+Lead In: U00117.00[Default]
+Default Next Question: U00119.00
+--------------------------------------------------------------------------------
+U00119.00    [CV_HRS_PER_WEEK.01]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 01
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+     307           0 TO 10: Hours
+     364          11 TO 20: Hours
+     536          21 TO 30: Hours
+     365          31 TO 35: Hours
+    3308          36 TO 40: Hours
+     809          41 TO 50: Hours
+     312          51 TO 60: Hours
+     127          61 TO 80: Hours
+      23          81 TO 100: Hours
+       8         101 TO 168: Hours
+  -------
+    6159
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      53
+TOTAL =========>    6212   VALID SKIP(-4)     891     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:            168        Mean:               38.14
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00118.00[Default]
+Default Next Question: U00120.00
+--------------------------------------------------------------------------------
+U00120.00    [CV_HRS_PER_WEEK.02]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 02
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+     393           0 TO 10: Hours
+     314          11 TO 20: Hours
+     279          21 TO 30: Hours
+     134          31 TO 35: Hours
+    1080          36 TO 40: Hours
+     201          41 TO 50: Hours
+      95          51 TO 60: Hours
+      60          61 TO 80: Hours
+      13          81 TO 100: Hours
+       2         101 TO 168: Hours
+  -------
+    2571
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      50
+TOTAL =========>    2621   VALID SKIP(-4)    4482     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:            168        Mean:                32.6
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00119.00[Default]
+Default Next Question: U00121.00
+--------------------------------------------------------------------------------
+U00121.00    [CV_HRS_PER_WEEK.03]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 03
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+     119           0 TO 10: Hours
+      98          11 TO 20: Hours
+      95          21 TO 30: Hours
+      51          31 TO 35: Hours
+     381          36 TO 40: Hours
+      54          41 TO 50: Hours
+      28          51 TO 60: Hours
+      14          61 TO 80: Hours
+       3          81 TO 100: Hours
+       0         101 TO 168: Hours
+  -------
+     843
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      19
+TOTAL =========>     862   VALID SKIP(-4)    6241     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:            100        Mean:                32.4
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00120.00[Default]
+Default Next Question: U00122.00
+--------------------------------------------------------------------------------
+U00122.00    [CV_HRS_PER_WEEK.04]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 04
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+      37           0 TO 10: Hours
+      30          11 TO 20: Hours
+      34          21 TO 30: Hours
+      19          31 TO 35: Hours
+     116          36 TO 40: Hours
+      20          41 TO 50: Hours
+       5          51 TO 60: Hours
+       4          61 TO 80: Hours
+       2          81 TO 100: Hours
+       0         101 TO 168: Hours
+  -------
+     267
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       8
+TOTAL =========>     275   VALID SKIP(-4)    6828     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:            100        Mean:               32.45
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00121.00[Default]
+Default Next Question: U00123.00
+--------------------------------------------------------------------------------
+U00123.00    [CV_HRS_PER_WEEK.05]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 05
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+      12           0 TO 10: Hours
+      15          11 TO 20: Hours
+       8          21 TO 30: Hours
+       2          31 TO 35: Hours
+      36          36 TO 40: Hours
+       3          41 TO 50: Hours
+       2          51 TO 60: Hours
+       2          61 TO 80: Hours
+       0          81 TO 100: Hours
+       0         101 TO 168: Hours
+  -------
+      80
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       7
+TOTAL =========>      87   VALID SKIP(-4)    7016     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:             72        Mean:               30.49
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00122.00[Default]
+Default Next Question: U00124.00
+--------------------------------------------------------------------------------
+U00124.00    [CV_HRS_PER_WEEK.06]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 06
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+       5           0 TO 10: Hours
+       2          11 TO 20: Hours
+       4          21 TO 30: Hours
+       1          31 TO 35: Hours
+       8          36 TO 40: Hours
+       1          41 TO 50: Hours
+       0          51 TO 60: Hours
+       0          61 TO 80: Hours
+       1          81 TO 100: Hours
+       0         101 TO 168: Hours
+  -------
+      22
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>      24   VALID SKIP(-4)    7079     NON-INTERVIEW(-5)    1881
+ 
+Min:              2        Max:             95        Mean:               29.91
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00123.00[Default]
+Default Next Question: U00125.00
+--------------------------------------------------------------------------------
+U00125.00    [CV_HRS_PER_WEEK.07]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 07
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+       4           0 TO 10: Hours
+       0          11 TO 20: Hours
+       2          21 TO 30: Hours
+       0          31 TO 35: Hours
+       2          36 TO 40: Hours
+       0          41 TO 50: Hours
+       0          51 TO 60: Hours
+       0          61 TO 80: Hours
+       0          81 TO 100: Hours
+       0         101 TO 168: Hours
+  -------
+       8
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>      10   VALID SKIP(-4)    7093     NON-INTERVIEW(-5)    1881
+ 
+Min:              3        Max:             40        Mean:               20.13
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00124.00[Default]
+Default Next Question: U00126.00
+--------------------------------------------------------------------------------
+U00126.00    [CV_HRS_PER_WEEK.08]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 08
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+       1           0 TO 10: Hours
+       0          11 TO 20: Hours
+       1          21 TO 30: Hours
+       1          31 TO 35: Hours
+       1          36 TO 40: Hours
+       0          41 TO 50: Hours
+       0          51 TO 60: Hours
+       0          61 TO 80: Hours
+       0          81 TO 100: Hours
+       0         101 TO 168: Hours
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       6   VALID SKIP(-4)    7097     NON-INTERVIEW(-5)    1881
+ 
+Min:              8        Max:             40        Mean:                  27
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00125.00[Default]
+Default Next Question: U00127.00
+--------------------------------------------------------------------------------
+U00127.00    [CV_HRS_PER_WEEK.09]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 09
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+       1           0 TO 10: Hours
+       0          11 TO 20: Hours
+       1          21 TO 30: Hours
+       0          31 TO 35: Hours
+       0          36 TO 40: Hours
+       0          41 TO 50: Hours
+       0          51 TO 60: Hours
+       0          61 TO 80: Hours
+       0          81 TO 100: Hours
+       0         101 TO 168: Hours
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:              8        Max:             30        Mean:                  19
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00126.00[Default]
+Default Next Question: U00128.00
+--------------------------------------------------------------------------------
+U00128.00    [CV_HRS_PER_WEEK.10]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 10
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+       1           0 TO 10: Hours
+       0          11 TO 20: Hours
+       1          21 TO 30: Hours
+       0          31 TO 35: Hours
+       0          36 TO 40: Hours
+       0          41 TO 50: Hours
+       0          51 TO 60: Hours
+       0          61 TO 80: Hours
+       0          81 TO 100: Hours
+       0         101 TO 168: Hours
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:              8        Max:             25        Mean:                16.5
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00127.00[Default]
+Default Next Question: U00129.00
+--------------------------------------------------------------------------------
+U00129.00    [CV_HRS_PER_WEEK.11]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 11
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+       1           0 TO 10: Hours
+       0          11 TO 20: Hours
+       1          21 TO 30: Hours
+       0          31 TO 35: Hours
+       0          36 TO 40: Hours
+       0          41 TO 50: Hours
+       0          51 TO 60: Hours
+       0          61 TO 80: Hours
+       0          81 TO 100: Hours
+       0         101 TO 168: Hours
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       3   VALID SKIP(-4)    7100     NON-INTERVIEW(-5)    1881
+ 
+Min:              8        Max:             30        Mean:                  19
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00128.00[Default]
+Default Next Question: U00130.00
+--------------------------------------------------------------------------------
+U00130.00    [CV_HRS_PER_WEEK.12]                           Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOURS WORKED PER WEEK AT JOB 12
+ 
+The number of hours worked per week as of either the job's stop date or the 
+interview date for on-going jobs. If the job lasted 13 weeks or less this 
+variable is calculated as of the job's start date.
+ 
+       0           0 TO 10: Hours
+       0          11 TO 20: Hours
+       0          21 TO 30: Hours
+       0          31 TO 35: Hours
+       0          36 TO 40: Hours
+       0          41 TO 50: Hours
+       0          51 TO 60: Hours
+       0          61 TO 80: Hours
+       0          81 TO 100: Hours
+       0         101 TO 168: Hours
+  -------
+       0
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>       1   VALID SKIP(-4)    7102     NON-INTERVIEW(-5)    1881
+ 
+Min:        Max:        Mean:                   0
+ 
+Hard Minimum: [0]  Hard Maximum: [168]
+ 
+Lead In: U00129.00[Default]
+Default Next Question: U00131.00
+--------------------------------------------------------------------------------
+U00154.00    [CV_WKSWK_JOB_DLI.01]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 01
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+    1442           0 TO 50
+     921          51 TO 100
+     668         101 TO 150
+     492         151 TO 200
+     456         201 TO 250
+     358         251 TO 300
+     266         301 TO 350
+     239         351 TO 400
+     296         401 TO 450
+     274         451 TO 500
+     191         501 TO 550
+     153         551 TO 600
+      97         601 TO 650
+      79         651 TO 700
+      70         701 TO 750
+      46         751 TO 800
+      42         801 TO 850
+      22         851 TO 900
+       2         901 TO 950
+       7         951 TO 1000
+       2        1001 TO 1050
+       4        1051 TO 2000
+  -------
+    6127
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      85
+TOTAL =========>    6212   VALID SKIP(-4)     891     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:           1332        Mean:              222.02
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00153.00[Default]
+Default Next Question: U00155.00
+--------------------------------------------------------------------------------
+U00155.00    [CV_WKSWK_JOB_DLI.02]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 02
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+     839           0 TO 50
+     520          51 TO 100
+     339         101 TO 150
+     250         151 TO 200
+     159         201 TO 250
+      99         251 TO 300
+      88         301 TO 350
+      62         351 TO 400
+      67         401 TO 450
+      38         451 TO 500
+      31         501 TO 550
+      22         551 TO 600
+      11         601 TO 650
+      11         651 TO 700
+       8         701 TO 750
+       4         751 TO 800
+       4         801 TO 850
+       1         851 TO 900
+       1         901 TO 950
+       1         951 TO 1000
+       0        1001 TO 1050
+       1        1051 TO 2000
+  -------
+    2556
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      65
+TOTAL =========>    2621   VALID SKIP(-4)    4482     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:           1148        Mean:              142.21
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00154.00[Default]
+Default Next Question: U00156.00
+--------------------------------------------------------------------------------
+U00156.00    [CV_WKSWK_JOB_DLI.03]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 03
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+     338           0 TO 50
+     179          51 TO 100
+     108         101 TO 150
+      66         151 TO 200
+      50         201 TO 250
+      18         251 TO 300
+      23         301 TO 350
+      18         351 TO 400
+      10         401 TO 450
+      18         451 TO 500
+       6         501 TO 550
+       3         551 TO 600
+       3         601 TO 650
+       3         651 TO 700
+       1         701 TO 750
+       0         751 TO 800
+       2         801 TO 850
+       0         851 TO 900
+       0         901 TO 950
+       0         951 TO 1000
+       0        1001 TO 1050
+       0        1051 TO 2000
+  -------
+     846
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      16
+TOTAL =========>     862   VALID SKIP(-4)    6241     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:            819        Mean:              118.04
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00155.00[Default]
+Default Next Question: U00157.00
+--------------------------------------------------------------------------------
+U00157.00    [CV_WKSWK_JOB_DLI.04]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 04
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+     114           0 TO 50
+      71          51 TO 100
+      32         101 TO 150
+      15         151 TO 200
+      12         201 TO 250
+       8         251 TO 300
+       4         301 TO 350
+       7         351 TO 400
+       4         401 TO 450
+       3         451 TO 500
+       1         501 TO 550
+       1         551 TO 600
+       1         601 TO 650
+       0         651 TO 700
+       0         701 TO 750
+       1         751 TO 800
+       0         801 TO 850
+       0         851 TO 900
+       0         901 TO 950
+       0         951 TO 1000
+       0        1001 TO 1050
+       0        1051 TO 2000
+  -------
+     274
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>     275   VALID SKIP(-4)    6828     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:            767        Mean:              105.11
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00156.00[Default]
+Default Next Question: U00158.00
+--------------------------------------------------------------------------------
+U00158.00    [CV_WKSWK_JOB_DLI.05]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 05
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+      39           0 TO 50
+      17          51 TO 100
+       6         101 TO 150
+       6         151 TO 200
+       5         201 TO 250
+       3         251 TO 300
+       5         301 TO 350
+       0         351 TO 400
+       2         401 TO 450
+       0         451 TO 500
+       0         501 TO 550
+       0         551 TO 600
+       1         601 TO 650
+       0         651 TO 700
+       0         701 TO 750
+       0         751 TO 800
+       0         801 TO 850
+       0         851 TO 900
+       0         901 TO 950
+       0         951 TO 1000
+       0        1001 TO 1050
+       0        1051 TO 2000
+  -------
+      84
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>      87   VALID SKIP(-4)    7016     NON-INTERVIEW(-5)    1881
+ 
+Min:              1        Max:            645        Mean:              105.46
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00157.00[Default]
+Default Next Question: U00159.00
+--------------------------------------------------------------------------------
+U00159.00    [CV_WKSWK_JOB_DLI.06]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 06
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+      13           0 TO 50
+       3          51 TO 100
+       4         101 TO 150
+       0         151 TO 200
+       1         201 TO 250
+       2         251 TO 300
+       0         301 TO 350
+       0         351 TO 400
+       0         401 TO 450
+       0         451 TO 500
+       0         501 TO 550
+       0         551 TO 600
+       0         601 TO 650
+       1         651 TO 700
+       0         701 TO 750
+       0         751 TO 800
+       0         801 TO 850
+       0         851 TO 900
+       0         901 TO 950
+       0         951 TO 1000
+       0        1001 TO 1050
+       0        1051 TO 2000
+  -------
+      24
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      24   VALID SKIP(-4)    7079     NON-INTERVIEW(-5)    1881
+ 
+Min:              1        Max:            698        Mean:              102.83
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00158.00[Default]
+Default Next Question: U00160.00
+--------------------------------------------------------------------------------
+U00160.00    [CV_WKSWK_JOB_DLI.07]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 07
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+       8           0 TO 50
+       1          51 TO 100
+       1         101 TO 150
+       0         151 TO 200
+       0         201 TO 250
+       0         251 TO 300
+       0         301 TO 350
+       0         351 TO 400
+       0         401 TO 450
+       0         451 TO 500
+       0         501 TO 550
+       0         551 TO 600
+       0         601 TO 650
+       0         651 TO 700
+       0         701 TO 750
+       0         751 TO 800
+       0         801 TO 850
+       0         851 TO 900
+       0         901 TO 950
+       0         951 TO 1000
+       0        1001 TO 1050
+       0        1051 TO 2000
+  -------
+      10
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      10   VALID SKIP(-4)    7093     NON-INTERVIEW(-5)    1881
+ 
+Min:              5        Max:            144        Mean:                33.7
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00159.00[Default]
+Default Next Question: U00161.00
+--------------------------------------------------------------------------------
+U00161.00    [CV_WKSWK_JOB_DLI.08]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 08
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+       2           0 TO 50
+       3          51 TO 100
+       0         101 TO 150
+       0         151 TO 200
+       1         201 TO 250
+       0         251 TO 300
+       0         301 TO 350
+       0         351 TO 400
+       0         401 TO 450
+       0         451 TO 500
+       0         501 TO 550
+       0         551 TO 600
+       0         601 TO 650
+       0         651 TO 700
+       0         701 TO 750
+       0         751 TO 800
+       0         801 TO 850
+       0         851 TO 900
+       0         901 TO 950
+       0         951 TO 1000
+       0        1001 TO 1050
+       0        1051 TO 2000
+  -------
+       6
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       6   VALID SKIP(-4)    7097     NON-INTERVIEW(-5)    1881
+ 
+Min:              1        Max:            231        Mean:               76.67
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00160.00[Default]
+Default Next Question: U00162.00
+--------------------------------------------------------------------------------
+U00162.00    [CV_WKSWK_JOB_DLI.09]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 09
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+       2           0 TO 50
+       1          51 TO 100
+       0         101 TO 150
+       1         151 TO 200
+       0         201 TO 250
+       0         251 TO 300
+       0         301 TO 350
+       0         351 TO 400
+       0         401 TO 450
+       0         451 TO 500
+       0         501 TO 550
+       0         551 TO 600
+       0         601 TO 650
+       0         651 TO 700
+       0         701 TO 750
+       0         751 TO 800
+       0         801 TO 850
+       0         851 TO 900
+       0         901 TO 950
+       0         951 TO 1000
+       0        1001 TO 1050
+       0        1051 TO 2000
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:              3        Max:            166        Mean:               68.75
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00161.00[Default]
+Default Next Question: U00163.00
+--------------------------------------------------------------------------------
+U00163.00    [CV_WKSWK_JOB_DLI.10]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 10
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+       2           0 TO 50
+       0          51 TO 100
+       0         101 TO 150
+       2         151 TO 200
+       0         201 TO 250
+       0         251 TO 300
+       0         301 TO 350
+       0         351 TO 400
+       0         401 TO 450
+       0         451 TO 500
+       0         501 TO 550
+       0         551 TO 600
+       0         601 TO 650
+       0         651 TO 700
+       0         701 TO 750
+       0         751 TO 800
+       0         801 TO 850
+       0         851 TO 900
+       0         901 TO 950
+       0         951 TO 1000
+       0        1001 TO 1050
+       0        1051 TO 2000
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:              1        Max:            176        Mean:                  93
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00162.00[Default]
+Default Next Question: U00164.00
+--------------------------------------------------------------------------------
+U00164.00    [CV_WKSWK_JOB_DLI.11]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 11
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+       1           0 TO 50
+       1          51 TO 100
+       0         101 TO 150
+       0         151 TO 200
+       0         201 TO 250
+       1         251 TO 300
+       0         301 TO 350
+       0         351 TO 400
+       0         401 TO 450
+       0         451 TO 500
+       0         501 TO 550
+       0         551 TO 600
+       0         601 TO 650
+       0         651 TO 700
+       0         701 TO 750
+       0         751 TO 800
+       0         801 TO 850
+       0         851 TO 900
+       0         901 TO 950
+       0         951 TO 1000
+       0        1001 TO 1050
+       0        1051 TO 2000
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       3   VALID SKIP(-4)    7100     NON-INTERVIEW(-5)    1881
+ 
+Min:             42        Max:            256        Mean:                 117
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00163.00[Default]
+Default Next Question: U00165.00
+--------------------------------------------------------------------------------
+U00165.00    [CV_WKSWK_JOB_DLI.12]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # WEEKS AT JOB 12
+ 
+Number of weeks of total tenure at any job reported in the employer roster 
+(YEMP) to the survey date.
+ 
+       1           0 TO 50
+       0          51 TO 100
+       0         101 TO 150
+       0         151 TO 200
+       0         201 TO 250
+       0         251 TO 300
+       0         301 TO 350
+       0         351 TO 400
+       0         401 TO 450
+       0         451 TO 500
+       0         501 TO 550
+       0         551 TO 600
+       0         601 TO 650
+       0         651 TO 700
+       0         701 TO 750
+       0         751 TO 800
+       0         801 TO 850
+       0         851 TO 900
+       0         901 TO 950
+       0         951 TO 1000
+       0        1001 TO 1050
+       0        1051 TO 2000
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7102     NON-INTERVIEW(-5)    1881
+ 
+Min:             18        Max:             18        Mean:                  18
+ 
+Hard Minimum: [0]  Hard Maximum: [9999]
+ 
+Lead In: U00164.00[Default]
+Default Next Question: U00166.00
+--------------------------------------------------------------------------------
+U13447.00    [YEMP_UID.01]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 01 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+      12        9701
+       2        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+      20        9801
+       6        9802
+       2        9803
+       4        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+      18      199901
+      25      199902
+      11      199903
+       0      199904
+       0      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       0      199999
+      28      200001
+      38      200002
+      13      200003
+       3      200004
+       1      200005
+       1      200006
+       0      200007
+       0      200008
+       0      200009
+       1      200099
+       1      200100
+      30      200101
+      40      200102
+      17      200103
+      10      200104
+       1      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+      26      200201
+      40      200202
+      21      200203
+       4      200204
+       1      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+      35      200301
+      63      200302
+      20      200303
+       5      200304
+       1      200305
+       1      200306
+       0      200307
+       0      200308
+       0      200309
+      40      200401
+      87      200402
+      39      200403
+       4      200404
+       2      200405
+      42      200501
+     100      200502
+      26      200503
+       6      200504
+       1      200505
+       0      200506
+      58      200601
+     168      200602
+      51      200603
+       5      200604
+       1      200605
+       0      200606
+      68      200701
+     168      200702
+      63      200703
+       8      200704
+       2      200705
+       1      200706
+      63      200801
+     186      200802
+      52      200803
+      10      200804
+       2      200805
+      45      200901
+     132      200902
+      42      200903
+       4      200904
+       0      200905
+       0      200906
+       0      200907
+       1      200908
+      88      201001
+     202      201002
+      54      201003
+       8      201004
+       4      201005
+       0      201006
+       1      201007
+     112      201101
+     219      201102
+      37      201103
+      11      201104
+       1      201105
+       1      201106
+       0      201107
+       1      201111
+       0      201113
+     254      201301
+     608      201302
+     245      201303
+      60      201304
+      19      201305
+       5      201306
+       4      201307
+       0      201308
+       1      201309
+     551      201501
+    1199      201502
+     450      201503
+     128      201504
+      52      201505
+       9      201506
+       4      201507
+       2      201508
+       1      201509
+       2      201510
+       1      201511
+       0      201544
+       0      201512
+  -------
+    6312
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6312   VALID SKIP(-4)     791     NON-INTERVIEW(-5)    1881
+ 
+Min:           9701        Max:         201511        Mean:           199722.55
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13458.00[Default]
+Default Next Question: U13448.00
+--------------------------------------------------------------------------------
+U13448.00    [YEMP_UID.02]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 02 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+       4        9701
+       1        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+       4        9801
+       1        9802
+       2        9803
+       0        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+       5      199901
+       6      199902
+       1      199903
+       0      199904
+       1      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       1      199999
+       3      200001
+      12      200002
+       3      200003
+       0      200004
+       0      200005
+       0      200006
+       0      200007
+       0      200008
+       0      200009
+       0      200099
+       0      200100
+       6      200101
+       5      200102
+       7      200103
+       1      200104
+       0      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+      15      200201
+      10      200202
+       5      200203
+       2      200204
+       1      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+       7      200301
+      15      200302
+       4      200303
+       1      200304
+       1      200305
+       0      200306
+       0      200307
+       0      200308
+       0      200309
+      14      200401
+      25      200402
+       8      200403
+       2      200404
+       1      200405
+       7      200501
+      22      200502
+       5      200503
+       1      200504
+       1      200505
+       0      200506
+      13      200601
+      42      200602
+      14      200603
+       1      200604
+       1      200605
+       0      200606
+       7      200701
+      47      200702
+      17      200703
+       4      200704
+       0      200705
+       0      200706
+      11      200801
+      55      200802
+      24      200803
+       6      200804
+       1      200805
+      16      200901
+      45      200902
+      14      200903
+      10      200904
+       0      200905
+       0      200906
+       0      200907
+       0      200908
+      42      201001
+      76      201002
+      28      201003
+       6      201004
+       2      201005
+       1      201006
+       0      201007
+      44      201101
+     104      201102
+      26      201103
+       6      201104
+       3      201105
+       0      201106
+       0      201107
+       0      201111
+       1      201113
+     130      201301
+     387      201302
+     191      201303
+      47      201304
+      24      201305
+       5      201306
+       0      201307
+       1      201308
+       0      201309
+     137      201501
+     515      201502
+     227      201503
+      85      201504
+      21      201505
+       5      201506
+       1      201507
+       0      201508
+       1      201509
+       1      201510
+       1      201511
+       0      201544
+       0      201512
+  -------
+    2656
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    2656   VALID SKIP(-4)    4447     NON-INTERVIEW(-5)    1881
+ 
+Min:           9701        Max:         201511        Mean:           200336.91
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13447.00[Default]
+Default Next Question: U13449.00
+--------------------------------------------------------------------------------
+U13449.00    [YEMP_UID.03]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 03 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+       1        9701
+       0        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+       4        9801
+       0        9802
+       0        9803
+       1        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+       1      199901
+       0      199902
+       1      199903
+       0      199904
+       0      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       0      199999
+       2      200001
+       2      200002
+       1      200003
+       1      200004
+       0      200005
+       0      200006
+       0      200007
+       0      200008
+       0      200009
+       0      200099
+       0      200100
+       1      200101
+       2      200102
+       1      200103
+       0      200104
+       0      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+       2      200201
+       3      200202
+       0      200203
+       0      200204
+       1      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+       0      200301
+       4      200302
+       2      200303
+       0      200304
+       1      200305
+       1      200306
+       0      200307
+       0      200308
+       0      200309
+       3      200401
+       5      200402
+       3      200403
+       2      200404
+       0      200405
+       2      200501
+       7      200502
+       8      200503
+       1      200504
+       1      200505
+       0      200506
+       3      200601
+      11      200602
+       4      200603
+       0      200604
+       0      200605
+       0      200606
+       1      200701
+       8      200702
+       9      200703
+       4      200704
+       0      200705
+       0      200706
+       7      200801
+      12      200802
+       5      200803
+       0      200804
+       0      200805
+       5      200901
+      18      200902
+       6      200903
+       1      200904
+       2      200905
+       0      200906
+       0      200907
+       0      200908
+       8      201001
+      24      201002
+       8      201003
+       5      201004
+       1      201005
+       0      201006
+       0      201007
+      14      201101
+      34      201102
+      15      201103
+       5      201104
+       1      201105
+       0      201106
+       0      201107
+       0      201111
+       0      201113
+      39      201301
+     133      201302
+      67      201303
+      38      201304
+      10      201305
+       2      201306
+       2      201307
+       0      201308
+       0      201309
+      44      201501
+     115      201502
+     100      201503
+      32      201504
+      14      201505
+       4      201506
+       0      201507
+       1      201508
+       2      201509
+       0      201510
+       0      201511
+       0      201544
+       1      201512
+  -------
+     879
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     879   VALID SKIP(-4)    6224     NON-INTERVIEW(-5)    1881
+ 
+Min:           9701        Max:         201512        Mean:           199912.73
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13448.00[Default]
+Default Next Question: U13450.00
+--------------------------------------------------------------------------------
+U13450.00    [YEMP_UID.04]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 04 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+       0        9701
+       0        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+       1        9801
+       0        9802
+       0        9803
+       0        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+       2      199901
+       0      199902
+       0      199903
+       0      199904
+       0      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       0      199999
+       1      200001
+       1      200002
+       2      200003
+       0      200004
+       0      200005
+       0      200006
+       0      200007
+       0      200008
+       0      200009
+       0      200099
+       0      200100
+       0      200101
+       1      200102
+       1      200103
+       1      200104
+       0      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+       1      200201
+       1      200202
+       0      200203
+       0      200204
+       0      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+       0      200301
+       1      200302
+       0      200303
+       1      200304
+       1      200305
+       0      200306
+       0      200307
+       0      200308
+       0      200309
+       1      200401
+       1      200402
+       1      200403
+       0      200404
+       1      200405
+       0      200501
+       3      200502
+       1      200503
+       1      200504
+       0      200505
+       0      200506
+       1      200601
+       1      200602
+       1      200603
+       0      200604
+       0      200605
+       0      200606
+       1      200701
+       1      200702
+       6      200703
+       0      200704
+       0      200705
+       0      200706
+       0      200801
+       3      200802
+       1      200803
+       1      200804
+       0      200805
+       0      200901
+       5      200902
+       3      200903
+       3      200904
+       0      200905
+       0      200906
+       0      200907
+       0      200908
+       3      201001
+       9      201002
+       1      201003
+       0      201004
+       0      201005
+       0      201006
+       0      201007
+       1      201101
+       8      201102
+       6      201103
+       0      201104
+       1      201105
+       0      201106
+       1      201107
+       0      201111
+       0      201113
+      14      201301
+      36      201302
+      27      201303
+      15      201304
+       6      201305
+       1      201306
+       1      201307
+       0      201308
+       0      201309
+      15      201501
+      40      201502
+      16      201503
+      15      201504
+       6      201505
+       3      201506
+       0      201507
+       2      201508
+       0      201509
+       0      201510
+       0      201511
+       0      201544
+       0      201512
+  -------
+     278
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     278   VALID SKIP(-4)    6825     NON-INTERVIEW(-5)    1881
+ 
+Min:           9801        Max:         201508        Mean:           200519.92
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13449.00[Default]
+Default Next Question: U13451.00
+--------------------------------------------------------------------------------
+U13451.00    [YEMP_UID.05]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 05 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+       0        9701
+       0        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+       0        9801
+       0        9802
+       0        9803
+       0        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+       0      199901
+       0      199902
+       0      199903
+       0      199904
+       0      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       0      199999
+       0      200001
+       0      200002
+       1      200003
+       0      200004
+       0      200005
+       0      200006
+       0      200007
+       0      200008
+       0      200009
+       0      200099
+       0      200100
+       1      200101
+       0      200102
+       0      200103
+       1      200104
+       0      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+       1      200201
+       0      200202
+       0      200203
+       0      200204
+       0      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+       0      200301
+       0      200302
+       0      200303
+       0      200304
+       0      200305
+       0      200306
+       0      200307
+       0      200308
+       0      200309
+       1      200401
+       0      200402
+       1      200403
+       0      200404
+       0      200405
+       0      200501
+       1      200502
+       1      200503
+       1      200504
+       0      200505
+       0      200506
+       0      200601
+       1      200602
+       1      200603
+       0      200604
+       0      200605
+       0      200606
+       1      200701
+       1      200702
+       0      200703
+       0      200704
+       0      200705
+       0      200706
+       0      200801
+       3      200802
+       0      200803
+       0      200804
+       0      200805
+       0      200901
+       3      200902
+       1      200903
+       0      200904
+       0      200905
+       0      200906
+       0      200907
+       0      200908
+       0      201001
+       3      201002
+       1      201003
+       0      201004
+       1      201005
+       0      201006
+       0      201007
+       0      201101
+       4      201102
+       0      201103
+       0      201104
+       0      201105
+       0      201106
+       0      201107
+       0      201111
+       0      201113
+       1      201301
+      16      201302
+       5      201303
+       6      201304
+       3      201305
+       0      201306
+       0      201307
+       0      201308
+       0      201309
+       4      201501
+       7      201502
+       5      201503
+       2      201504
+       4      201505
+       1      201506
+       3      201507
+       0      201508
+       1      201509
+       0      201510
+       1      201511
+       0      201544
+       0      201512
+  -------
+      88
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      88   VALID SKIP(-4)    7015     NON-INTERVIEW(-5)    1881
+ 
+Min:         200003        Max:         201511        Mean:           201173.43
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13450.00[Default]
+Default Next Question: U13452.00
+--------------------------------------------------------------------------------
+U13452.00    [YEMP_UID.06]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 06 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+       0        9701
+       0        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+       0        9801
+       0        9802
+       0        9803
+       0        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+       0      199901
+       0      199902
+       0      199903
+       0      199904
+       0      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       0      199999
+       0      200001
+       0      200002
+       1      200003
+       0      200004
+       0      200005
+       0      200006
+       0      200007
+       0      200008
+       0      200009
+       0      200099
+       0      200100
+       0      200101
+       0      200102
+       0      200103
+       2      200104
+       0      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+       0      200201
+       0      200202
+       1      200203
+       0      200204
+       0      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+       0      200301
+       0      200302
+       0      200303
+       0      200304
+       0      200305
+       0      200306
+       0      200307
+       0      200308
+       0      200309
+       0      200401
+       0      200402
+       0      200403
+       0      200404
+       0      200405
+       0      200501
+       1      200502
+       0      200503
+       0      200504
+       0      200505
+       0      200506
+       0      200601
+       0      200602
+       0      200603
+       0      200604
+       0      200605
+       0      200606
+       0      200701
+       0      200702
+       0      200703
+       0      200704
+       0      200705
+       0      200706
+       0      200801
+       0      200802
+       0      200803
+       0      200804
+       0      200805
+       0      200901
+       1      200902
+       0      200903
+       0      200904
+       0      200905
+       0      200906
+       0      200907
+       0      200908
+       0      201001
+       0      201002
+       0      201003
+       0      201004
+       0      201005
+       0      201006
+       0      201007
+       0      201101
+       0      201102
+       0      201103
+       0      201104
+       0      201105
+       0      201106
+       0      201107
+       0      201111
+       0      201113
+       0      201301
+       1      201302
+       2      201303
+       4      201304
+       1      201305
+       0      201306
+       0      201307
+       0      201308
+       0      201309
+       2      201501
+       1      201502
+       1      201503
+       0      201504
+       0      201505
+       3      201506
+       2      201507
+       0      201508
+       0      201509
+       1      201510
+       0      201511
+       0      201544
+       0      201512
+  -------
+      24
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      24   VALID SKIP(-4)    7079     NON-INTERVIEW(-5)    1881
+ 
+Min:         200003        Max:         201510        Mean:           201137.33
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13451.00[Default]
+Default Next Question: U13453.00
+--------------------------------------------------------------------------------
+U13453.00    [YEMP_UID.07]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 07 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+       0        9701
+       0        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+       0        9801
+       0        9802
+       0        9803
+       0        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+       0      199901
+       0      199902
+       0      199903
+       0      199904
+       0      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       0      199999
+       0      200001
+       0      200002
+       0      200003
+       0      200004
+       0      200005
+       0      200006
+       0      200007
+       0      200008
+       0      200009
+       0      200099
+       0      200100
+       0      200101
+       0      200102
+       0      200103
+       0      200104
+       0      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+       0      200201
+       0      200202
+       0      200203
+       0      200204
+       0      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+       0      200301
+       0      200302
+       0      200303
+       0      200304
+       0      200305
+       0      200306
+       0      200307
+       0      200308
+       0      200309
+       0      200401
+       0      200402
+       0      200403
+       0      200404
+       0      200405
+       0      200501
+       0      200502
+       0      200503
+       0      200504
+       0      200505
+       0      200506
+       0      200601
+       0      200602
+       0      200603
+       0      200604
+       0      200605
+       0      200606
+       0      200701
+       0      200702
+       0      200703
+       1      200704
+       0      200705
+       0      200706
+       0      200801
+       0      200802
+       0      200803
+       0      200804
+       0      200805
+       0      200901
+       0      200902
+       0      200903
+       0      200904
+       0      200905
+       0      200906
+       0      200907
+       0      200908
+       0      201001
+       0      201002
+       0      201003
+       0      201004
+       0      201005
+       0      201006
+       0      201007
+       0      201101
+       0      201102
+       0      201103
+       0      201104
+       0      201105
+       0      201106
+       0      201107
+       0      201111
+       0      201113
+       1      201301
+       0      201302
+       1      201303
+       0      201304
+       0      201305
+       0      201306
+       0      201307
+       1      201308
+       0      201309
+       0      201501
+       1      201502
+       0      201503
+       0      201504
+       4      201505
+       0      201506
+       0      201507
+       1      201508
+       0      201509
+       0      201510
+       0      201511
+       0      201544
+       0      201512
+  -------
+      10
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      10   VALID SKIP(-4)    7093     NON-INTERVIEW(-5)    1881
+ 
+Min:         200704        Max:         201508        Mean:            201364.6
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13452.00[Default]
+Default Next Question: U13454.00
+--------------------------------------------------------------------------------
+U13454.00    [YEMP_UID.08]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 08 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+       0        9701
+       0        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+       0        9801
+       0        9802
+       0        9803
+       0        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+       0      199901
+       0      199902
+       0      199903
+       0      199904
+       0      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       0      199999
+       0      200001
+       0      200002
+       0      200003
+       0      200004
+       0      200005
+       0      200006
+       0      200007
+       0      200008
+       0      200009
+       0      200099
+       0      200100
+       0      200101
+       0      200102
+       0      200103
+       0      200104
+       0      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+       0      200201
+       0      200202
+       0      200203
+       0      200204
+       0      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+       0      200301
+       0      200302
+       0      200303
+       0      200304
+       0      200305
+       0      200306
+       0      200307
+       0      200308
+       0      200309
+       0      200401
+       0      200402
+       0      200403
+       0      200404
+       0      200405
+       0      200501
+       0      200502
+       0      200503
+       0      200504
+       0      200505
+       0      200506
+       0      200601
+       0      200602
+       0      200603
+       0      200604
+       0      200605
+       0      200606
+       0      200701
+       0      200702
+       0      200703
+       0      200704
+       0      200705
+       0      200706
+       0      200801
+       1      200802
+       0      200803
+       0      200804
+       0      200805
+       0      200901
+       0      200902
+       0      200903
+       0      200904
+       0      200905
+       0      200906
+       0      200907
+       0      200908
+       0      201001
+       0      201002
+       0      201003
+       0      201004
+       0      201005
+       0      201006
+       0      201007
+       0      201101
+       0      201102
+       0      201103
+       0      201104
+       0      201105
+       0      201106
+       0      201107
+       0      201111
+       0      201113
+       0      201301
+       1      201302
+       0      201303
+       0      201304
+       0      201305
+       0      201306
+       0      201307
+       0      201308
+       0      201309
+       0      201501
+       0      201502
+       2      201503
+       1      201504
+       0      201505
+       1      201506
+       0      201507
+       0      201508
+       0      201509
+       0      201510
+       0      201511
+       0      201544
+       0      201512
+  -------
+       6
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       6   VALID SKIP(-4)    7097     NON-INTERVIEW(-5)    1881
+ 
+Min:         200802        Max:         201506        Mean:           201353.33
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13453.00[Default]
+Default Next Question: U13455.00
+--------------------------------------------------------------------------------
+U13455.00    [YEMP_UID.09]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 09 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+       0        9701
+       0        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+       0        9801
+       0        9802
+       0        9803
+       0        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+       0      199901
+       0      199902
+       0      199903
+       0      199904
+       0      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       0      199999
+       0      200001
+       0      200002
+       0      200003
+       0      200004
+       0      200005
+       0      200006
+       0      200007
+       0      200008
+       0      200009
+       0      200099
+       0      200100
+       0      200101
+       0      200102
+       0      200103
+       0      200104
+       0      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+       0      200201
+       0      200202
+       0      200203
+       0      200204
+       0      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+       0      200301
+       0      200302
+       0      200303
+       0      200304
+       0      200305
+       0      200306
+       0      200307
+       0      200308
+       0      200309
+       0      200401
+       0      200402
+       0      200403
+       0      200404
+       0      200405
+       0      200501
+       0      200502
+       0      200503
+       0      200504
+       0      200505
+       0      200506
+       0      200601
+       0      200602
+       0      200603
+       0      200604
+       0      200605
+       0      200606
+       0      200701
+       0      200702
+       0      200703
+       0      200704
+       0      200705
+       0      200706
+       0      200801
+       0      200802
+       0      200803
+       0      200804
+       0      200805
+       0      200901
+       0      200902
+       0      200903
+       0      200904
+       0      200905
+       0      200906
+       0      200907
+       0      200908
+       0      201001
+       0      201002
+       0      201003
+       0      201004
+       0      201005
+       0      201006
+       0      201007
+       0      201101
+       0      201102
+       0      201103
+       0      201104
+       0      201105
+       0      201106
+       0      201107
+       0      201111
+       0      201113
+       0      201301
+       0      201302
+       0      201303
+       0      201304
+       0      201305
+       0      201306
+       0      201307
+       0      201308
+       0      201309
+       0      201501
+       1      201502
+       1      201503
+       0      201504
+       1      201505
+       0      201506
+       1      201507
+       0      201508
+       0      201509
+       0      201510
+       0      201511
+       0      201544
+       0      201512
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:         201502        Max:         201507        Mean:           201504.25
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13454.00[Default]
+Default Next Question: U13456.00
+--------------------------------------------------------------------------------
+U13456.00    [YEMP_UID.10]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 10 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+       0        9701
+       0        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+       0        9801
+       0        9802
+       0        9803
+       0        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+       0      199901
+       0      199902
+       0      199903
+       0      199904
+       0      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       0      199999
+       0      200001
+       0      200002
+       0      200003
+       1      200004
+       0      200005
+       0      200006
+       0      200007
+       0      200008
+       0      200009
+       0      200099
+       0      200100
+       0      200101
+       0      200102
+       0      200103
+       0      200104
+       0      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+       0      200201
+       0      200202
+       0      200203
+       0      200204
+       0      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+       0      200301
+       0      200302
+       0      200303
+       0      200304
+       0      200305
+       0      200306
+       0      200307
+       0      200308
+       0      200309
+       0      200401
+       0      200402
+       0      200403
+       0      200404
+       0      200405
+       0      200501
+       0      200502
+       0      200503
+       0      200504
+       0      200505
+       0      200506
+       0      200601
+       0      200602
+       1      200603
+       0      200604
+       0      200605
+       0      200606
+       0      200701
+       0      200702
+       0      200703
+       0      200704
+       0      200705
+       0      200706
+       0      200801
+       0      200802
+       0      200803
+       0      200804
+       0      200805
+       0      200901
+       0      200902
+       0      200903
+       0      200904
+       0      200905
+       0      200906
+       0      200907
+       0      200908
+       0      201001
+       0      201002
+       0      201003
+       0      201004
+       0      201005
+       0      201006
+       0      201007
+       0      201101
+       0      201102
+       0      201103
+       0      201104
+       0      201105
+       0      201106
+       0      201107
+       0      201111
+       0      201113
+       0      201301
+       0      201302
+       0      201303
+       0      201304
+       0      201305
+       0      201306
+       0      201307
+       0      201308
+       0      201309
+       0      201501
+       1      201502
+       0      201503
+       1      201504
+       0      201505
+       0      201506
+       0      201507
+       0      201508
+       0      201509
+       0      201510
+       0      201511
+       0      201544
+       0      201512
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       4   VALID SKIP(-4)    7099     NON-INTERVIEW(-5)    1881
+ 
+Min:         200004        Max:         201504        Mean:           200903.25
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13455.00[Default]
+Default Next Question: U13457.00
+--------------------------------------------------------------------------------
+U13457.00    [YEMP_UID.11]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 11 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+       0        9701
+       0        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+       0        9801
+       0        9802
+       0        9803
+       0        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+       0      199901
+       0      199902
+       0      199903
+       0      199904
+       0      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       0      199999
+       0      200001
+       0      200002
+       0      200003
+       0      200004
+       0      200005
+       0      200006
+       1      200007
+       0      200008
+       0      200009
+       0      200099
+       0      200100
+       0      200101
+       0      200102
+       0      200103
+       0      200104
+       0      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+       0      200201
+       0      200202
+       0      200203
+       0      200204
+       0      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+       0      200301
+       0      200302
+       0      200303
+       0      200304
+       0      200305
+       0      200306
+       0      200307
+       0      200308
+       0      200309
+       0      200401
+       0      200402
+       0      200403
+       0      200404
+       0      200405
+       0      200501
+       0      200502
+       0      200503
+       0      200504
+       0      200505
+       0      200506
+       0      200601
+       0      200602
+       0      200603
+       0      200604
+       0      200605
+       0      200606
+       0      200701
+       0      200702
+       0      200703
+       0      200704
+       0      200705
+       0      200706
+       0      200801
+       0      200802
+       0      200803
+       0      200804
+       0      200805
+       0      200901
+       0      200902
+       0      200903
+       1      200904
+       0      200905
+       0      200906
+       0      200907
+       0      200908
+       0      201001
+       0      201002
+       0      201003
+       0      201004
+       0      201005
+       0      201006
+       0      201007
+       0      201101
+       0      201102
+       0      201103
+       0      201104
+       0      201105
+       0      201106
+       0      201107
+       0      201111
+       0      201113
+       0      201301
+       0      201302
+       0      201303
+       0      201304
+       0      201305
+       0      201306
+       0      201307
+       0      201308
+       0      201309
+       1      201501
+       0      201502
+       0      201503
+       0      201504
+       0      201505
+       0      201506
+       0      201507
+       0      201508
+       0      201509
+       0      201510
+       0      201511
+       0      201544
+       0      201512
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       3   VALID SKIP(-4)    7100     NON-INTERVIEW(-5)    1881
+ 
+Min:         200007        Max:         201501        Mean:              200804
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13456.00[Default]
+Default Next Question: U13458.00
+--------------------------------------------------------------------------------
+U13458.00    [YEMP_UID.12]                                  Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEMP, EMPLOYER 12 UNIQUE ID (ROS ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+       0           0
+       0        9701
+       0        9702
+       0        9703
+       0        9704
+       0        9705
+       0        9706
+       0        9707
+       0        9800
+       0        9801
+       0        9802
+       0        9803
+       0        9804
+       0        9805
+       0        9806
+       0        9807
+       0        9808
+       0        9809
+       0      199901
+       0      199902
+       0      199903
+       0      199904
+       0      199905
+       0      199906
+       0      199907
+       0      199908
+       0      199909
+       0      199999
+       0      200001
+       0      200002
+       0      200003
+       0      200004
+       0      200005
+       0      200006
+       0      200007
+       0      200008
+       0      200009
+       0      200099
+       0      200100
+       0      200101
+       0      200102
+       0      200103
+       0      200104
+       0      200105
+       0      200106
+       0      200107
+       0      200108
+       0      200109
+       0      200201
+       0      200202
+       0      200203
+       0      200204
+       0      200205
+       0      200206
+       0      200207
+       0      200208
+       0      200209
+       0      200301
+       0      200302
+       0      200303
+       0      200304
+       0      200305
+       0      200306
+       0      200307
+       0      200308
+       0      200309
+       0      200401
+       0      200402
+       0      200403
+       0      200404
+       0      200405
+       0      200501
+       0      200502
+       0      200503
+       0      200504
+       0      200505
+       0      200506
+       0      200601
+       0      200602
+       0      200603
+       0      200604
+       0      200605
+       0      200606
+       0      200701
+       0      200702
+       0      200703
+       0      200704
+       0      200705
+       0      200706
+       0      200801
+       0      200802
+       0      200803
+       0      200804
+       0      200805
+       0      200901
+       0      200902
+       0      200903
+       0      200904
+       0      200905
+       0      200906
+       0      200907
+       0      200908
+       0      201001
+       0      201002
+       0      201003
+       0      201004
+       0      201005
+       0      201006
+       0      201007
+       0      201101
+       0      201102
+       0      201103
+       0      201104
+       0      201105
+       0      201106
+       0      201107
+       0      201111
+       0      201113
+       0      201301
+       0      201302
+       0      201303
+       0      201304
+       0      201305
+       0      201306
+       0      201307
+       0      201308
+       0      201309
+       0      201501
+       0      201502
+       0      201503
+       1      201504
+       0      201505
+       0      201506
+       0      201507
+       0      201508
+       0      201509
+       0      201510
+       0      201511
+       0      201544
+       0      201512
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7102     NON-INTERVIEW(-5)    1881
+ 
+Min:         201504        Max:         201504        Mean:              201504
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: U13457.00[Default]
+Default Next Question: U13447.00

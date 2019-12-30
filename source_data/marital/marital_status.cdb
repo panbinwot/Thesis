@@ -1,0 +1,517 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R05363.00    [KEY!SEX]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!SEX, RS GENDER (SYMBOL)
+ 
+COMMENT: Gender of Youth
+ 
+    4599       1 Male
+    4385       2 Female
+       0       0 No Information
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R00001.00[Default]
+Default Next Question: R05364.00
+--------------------------------------------------------------------------------
+R25693.00    [CV_MARSTAT]                                   Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+     111       1 Never married, cohabiting
+    3119       2 Never married, not cohabiting
+      34       3 Married, spouse present
+       7       4 Married, spouse absent
+       1       5 Separated, cohabiting
+       2       6 Separated, not cohabiting
+       0       7 Divorced, cohabiting
+       0       8 Divorced, not cohabiting
+       0       9 Widowed, cohabiting
+       0      10 Widowed, not cohabiting
+  -------
+    3274
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    3274   VALID SKIP(-4)    5112     NON-INTERVIEW(-5)     598
+ 
+Lead In: R25692.00[Default]
+Default Next Question: R25694.00
+--------------------------------------------------------------------------------
+R38913.00    [CV_MARSTAT]                                   Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+     248       1 Never married, cohabiting
+    4483       2 Never married, not cohabiting
+      99       3 Married, spouse present
+      11       4 Married, spouse absent
+       1       5 Separated, cohabiting
+       2       6 Separated, not cohabiting
+       1       7 Divorced, cohabiting
+       1       8 Divorced, not cohabiting
+       0       9 Widowed, cohabiting
+       0      10 Widowed, not cohabiting
+  -------
+    4846
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    4846   VALID SKIP(-4)    3362     NON-INTERVIEW(-5)     776
+ 
+Lead In: R38912.00[Default]
+Default Next Question: R38914.00
+--------------------------------------------------------------------------------
+R54733.00    [CV_MARSTAT]                                   Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+     463       1 Never married, cohabiting
+    5706       2 Never married, not cohabiting
+     210       3 Married, spouse present
+      15       4 Married, spouse absent
+       3       5 Separated, cohabiting
+       6       6 Separated, not cohabiting
+       3       7 Divorced, cohabiting
+       7       8 Divorced, not cohabiting
+       0       9 Widowed, cohabiting
+       0      10 Widowed, not cohabiting
+  -------
+    6413
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>    6418   VALID SKIP(-4)    1662     NON-INTERVIEW(-5)     904
+ 
+Lead In: R54732.00[Default]
+Default Next Question: R54734.00
+--------------------------------------------------------------------------------
+R72370.00    [CV_MARSTAT]                                   Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+     639       1 Never married, cohabiting
+    6786       2 Never married, not cohabiting
+     377       3 Married, spouse present
+      44       4 Married, spouse absent
+       7       5 Separated, cohabiting
+       9       6 Separated, not cohabiting
+       2       7 Divorced, cohabiting
+      11       8 Divorced, not cohabiting
+       0       9 Widowed, cohabiting
+       0      10 Widowed, not cohabiting
+  -------
+    7875
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       7
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Lead In: R72369.00[Default]
+Default Next Question: R72371.00
+--------------------------------------------------------------------------------
+S15522.00    [CV_MARSTAT]                                   Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+     840       1 Never married, cohabiting
+    6403       2 Never married, not cohabiting
+     546       3 Married, spouse present
+      44       4 Married, spouse absent
+       5       5 Separated, cohabiting
+      31       6 Separated, not cohabiting
+       7       7 Divorced, cohabiting
+      16       8 Divorced, not cohabiting
+       0       9 Widowed, cohabiting
+       2      10 Widowed, not cohabiting
+  -------
+    7894
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Lead In: S15521.00[Default]
+Default Next Question: S15523.00
+--------------------------------------------------------------------------------
+S20220.00    [CV_MARSTAT]                                   Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+     978       1 Never married, cohabiting
+    5849       2 Never married, not cohabiting
+     764       3 Married, spouse present
+      64       4 Married, spouse absent
+       9       5 Separated, cohabiting
+      36       6 Separated, not cohabiting
+      17       7 Divorced, cohabiting
+      29       8 Divorced, not cohabiting
+       1       9 Widowed, cohabiting
+       2      10 Widowed, not cohabiting
+  -------
+    7749
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Lead In: S20219.00[Default]
+Default Next Question: S20221.00
+--------------------------------------------------------------------------------
+S38229.00    [CV_MARSTAT]                                   Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+    1095       1 Never married, cohabiting
+    5187       2 Never married, not cohabiting
+     991       3 Married, spouse present
+      86       4 Married, spouse absent
+      17       5 Separated, cohabiting
+      36       6 Separated, not cohabiting
+      27       7 Divorced, cohabiting
+      53       8 Divorced, not cohabiting
+       1       9 Widowed, cohabiting
+       0      10 Widowed, not cohabiting
+  -------
+    7493
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       9
+TOTAL =========>    7502   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1482
+ 
+Lead In: S38228.00[Default]
+Default Next Question: S38230.00
+--------------------------------------------------------------------------------
+S54230.00    [CV_MARSTAT]                                   Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+    1185       1 Never married, cohabiting
+    4623       2 Never married, not cohabiting
+    1205       3 Married, spouse present
+     132       4 Married, spouse absent
+      12       5 Separated, cohabiting
+      30       6 Separated, not cohabiting
+      43       7 Divorced, cohabiting
+      96       8 Divorced, not cohabiting
+       1       9 Widowed, cohabiting
+       2      10 Widowed, not cohabiting
+  -------
+    7329
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       9
+TOTAL =========>    7338   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1646
+ 
+Lead In: S54229.00[Default]
+Default Next Question: S54231.00
+--------------------------------------------------------------------------------
+S75251.00    [CV_MARSTAT]                                   Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+    1291       1 Never married, cohabiting
+    4347       2 Never married, not cohabiting
+    1518       3 Married, spouse present
+     144       4 Married, spouse absent
+      10       5 Separated, cohabiting
+      31       6 Separated, not cohabiting
+      67       7 Divorced, cohabiting
+     136       8 Divorced, not cohabiting
+       1       9 Widowed, cohabiting
+       3      10 Widowed, not cohabiting
+  -------
+    7548
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      11
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Lead In: S75250.00[Default]
+Default Next Question: S75252.00
+--------------------------------------------------------------------------------
+T00254.00    [CV_MARSTAT]                                   Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+    1314       1 Never married, cohabiting
+    3911       2 Never married, not cohabiting
+    1717       3 Married, spouse present
+     130       4 Married, spouse absent
+      15       5 Separated, cohabiting
+      56       6 Separated, not cohabiting
+      92       7 Divorced, cohabiting
+     165       8 Divorced, not cohabiting
+       1       9 Widowed, cohabiting
+       5      10 Widowed, not cohabiting
+  -------
+    7406
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      12
+TOTAL =========>    7418   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1566
+ 
+Lead In: T00253.00[Default]
+Default Next Question: T00255.00
+--------------------------------------------------------------------------------
+T20203.00    [CV_MARSTAT]                                   Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+    1399       1 Never married, cohabiting
+    3569       2 Never married, not cohabiting
+    1941       3 Married, spouse present
+     147       4 Married, spouse absent
+      14       5 Separated, cohabiting
+      68       6 Separated, not cohabiting
+     128       7 Divorced, cohabiting
+     201       8 Divorced, not cohabiting
+       1       9 Widowed, cohabiting
+       4      10 Widowed, not cohabiting
+  -------
+    7472
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      18
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Lead In: T20202.00[Default]
+Default Next Question: T20204.00
+--------------------------------------------------------------------------------
+T36110.00    [CV_MARSTAT]                                   Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+    1359       1 Never married, cohabiting
+    3362       2 Never married, not cohabiting
+    2149       3 Married, spouse present
+     174       4 Married, spouse absent
+      22       5 Separated, cohabiting
+      77       6 Separated, not cohabiting
+     155       7 Divorced, cohabiting
+     238       8 Divorced, not cohabiting
+       1       9 Widowed, cohabiting
+       7      10 Widowed, not cohabiting
+  -------
+    7544
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      15
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Lead In: T36109.00[Default]
+Default Next Question: T36111.00
+--------------------------------------------------------------------------------
+T52114.00    [CV_MARSTAT]                                   Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+    1260       1 Never married, cohabiting
+    3144       2 Never married, not cohabiting
+    2335       3 Married, spouse present
+     181       4 Married, spouse absent
+      23       5 Separated, cohabiting
+      71       6 Separated, not cohabiting
+     165       7 Divorced, cohabiting
+     275       8 Divorced, not cohabiting
+       3       9 Widowed, cohabiting
+       7      10 Widowed, not cohabiting
+  -------
+    7464
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      15
+TOTAL =========>    7479   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1505
+ 
+Lead In: T52113.00[Default]
+Default Next Question: T52115.00
+--------------------------------------------------------------------------------
+T66628.00    [CV_MARSTAT]                                   Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+    1222       1 Never married, cohabiting
+    2926       2 Never married, not cohabiting
+    2473       3 Married, spouse present
+     175       4 Married, spouse absent
+      29       5 Separated, cohabiting
+      85       6 Separated, not cohabiting
+     169       7 Divorced, cohabiting
+     310       8 Divorced, not cohabiting
+       3       9 Widowed, cohabiting
+       8      10 Widowed, not cohabiting
+  -------
+    7400
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      23
+TOTAL =========>    7423   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1561
+ 
+Lead In: T66627.00[Default]
+Default Next Question: T66629.00
+--------------------------------------------------------------------------------
+T81340.00    [CV_MARSTAT]                                   Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+    1084       1 Never married, cohabiting
+    2440       2 Never married, not cohabiting
+    2744       3 Married, spouse present
+     188       4 Married, spouse absent
+      18       5 Separated, cohabiting
+      66       6 Separated, not cohabiting
+     202       7 Divorced, cohabiting
+     361       8 Divorced, not cohabiting
+       4       9 Widowed, cohabiting
+      12      10 Widowed, not cohabiting
+  -------
+    7119
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      21
+TOTAL =========>    7140   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1844
+ 
+Lead In: T81339.00[Default]
+Default Next Question: T81341.00
+--------------------------------------------------------------------------------
+U00145.00    [CV_MARSTAT]                                   Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+     991       1 Never married, cohabiting
+    2221       2 Never married, not cohabiting
+    2908       3 Married, spouse present
+     182       4 Married, spouse absent
+      41       5 Separated, cohabiting
+      72       6 Separated, not cohabiting
+     226       7 Divorced, cohabiting
+     397       8 Divorced, not cohabiting
+       3       9 Widowed, cohabiting
+      14      10 Widowed, not cohabiting
+  -------
+    7055
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      48
+TOTAL =========>    7103   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1881
+ 
+Min:              1        Max:             10        Mean:                 2.9
+ 
+Lead In: U00144.00[Default]
+Default Next Question: U00146.00
